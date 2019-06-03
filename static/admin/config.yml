@@ -24,6 +24,20 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
+    - file: "src/pages/home/index.md"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
+          - {label: Title1, name: title1, widget: string}
+          - {label: Title2, name: title2, widget: string}
+          - {label: Title3, name: title3, widget: string}
+          - {label: Description1, name: description1, widget: string}
+          - {label: Description2, name: description2, widget: string}
+          - {label: Description3, name: description3, widget: string}
+          - {label: Description4, name: description4, widget: string}
+          - {label: Description5, name: description5, widget: string}
+          - {label: Description6, name: description6, widget: string}
       - file: "src/pages/index.md"
         label: "Landing Page"
         name: "index"

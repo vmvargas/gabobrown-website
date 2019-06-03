@@ -12,15 +12,29 @@ class BlogRoll extends React.Component {
       <div className="columns is-multiline">
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
+            <div className="column is-12" key={post.id}>
               <article
-                className={`blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? 'is-featured' : ''
-                }`}
+                className={`${post.frontmatter.featuredpost ? 'is-featured' : ''}`}
               >
-                <header>
+                <header className="columns">
+                  <div className="column">
+                    <p className="post-meta">
+                      <Link
+                        className="title is-size-4"
+                        to={post.fields.slug}
+                      >
+                        {post.frontmatter.title}
+                      </Link>
+                    </p>
+                    <p className="post-meta">
+                      {post.frontmatter.date}
+                    </p>
+                    <p>
+                      {post.frontmatter.tags.join(' | ')}
+                    </p>
+                  </div>
                   {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
+                    <div className="column is-7 featured-thumbnail">
                       <PreviewCompatibleImage
                         imageInfo={{
                           image: post.frontmatter.featuredimage,
@@ -31,27 +45,7 @@ class BlogRoll extends React.Component {
                       />
                     </div>
                   ) : null}
-                  <p className="post-meta">
-                    <Link
-                      className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
-                    >
-                      {post.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
-                  </p>
                 </header>
-                <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
-                  </Link>
-                </p>
               </article>
             </div>
           ))}
@@ -78,19 +72,19 @@ export default () => (
         ) {
           edges {
             node {
-              excerpt(pruneLength: 400)
               id
               fields {
                 slug
               }
               frontmatter {
                 title
+                tags
                 templateKey
-                date(formatString: "MMMM DD, YYYY")
+                date(formatString: "MMM D, YYYY")
                 featuredpost
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 650, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }
