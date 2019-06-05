@@ -1,19 +1,21 @@
 ---
-templateKey: 'about-page'
-path: /about
-title: About our values
+templateKey: about-page
+title: Nice to meet you!
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+Whisk is an app that helps busy home cooks plan and cook multiple dishes efficiently for their friends and family. It keeps track of your available ingredients, provide relevant recipe suggestions, and simplifies the cooking process by merging all the instructions into a single list of steps.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+In this project, I worked closely with 3 students and took the lead to design our deliverable and the visuals of the application. Later on, I took the initiative to redesign the whole app. See the final work.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+
+
+We began the project by conducting semi-structured interviews with adults home cooks that don’t cook as an occupation to understand their cooking habits, meal choices, struggles, and so on. We also conducted a competitive analysis with products related to our user group such as Blue Apron, FridgeCam, BuzzFeed Tasty, and others to understand the scope of existing solutions within this problem space.
+
+**Pain Points**
+From our research, we mainly realized that our interviewees:
+
+* Find it difficult to cook several dishes at the same time.
+
+**Synthesis**
+With our research leanings, we created 2 personas that embodied the archetypes of our user group. We then mapped out the user journey of our persona Ray, including his thoughts and feelings during his typical weekday. From this, we were able to temporally visualize Ray's areas of frustrations and create a focal point on the problem space.
