@@ -7,27 +7,40 @@ class BlogRoll extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
+    // const postCounter = 
+    // post.forEach(element => {
+      
+    // });
+
 
     return (
       <div className="columns is-multiline">
         {posts &&
-          posts.map(({ node: post }) => (
+          posts.map(({ node: post }, ind) => (
+            
             <div className="column is-12" key={post.id}>
               <article
                 className={`${post.frontmatter.featuredpost ? 'is-featured' : ''}`}
               >
                 <header className="columns">
-                  <div className="column">
-                    <p className="post-meta">
-                      <Link
-                        className="title is-size-4"
-                        to={post.fields.slug}
-                      >
-                        {post.frontmatter.title}
-                      </Link>
+                  <div className="column">   
+                    <p>
+                      {ind.toString().length===1 ? '0'+(parseInt(ind,10)+1) : ind+1}
                     </p>
+                    <Link
+                      className="title is-size-4 post-meta"
+                      to={post.fields.slug}
+                    >
+                      {post.frontmatter.title}
+                    </Link>
+                    <div style={{
+                      height: '32px',
+                    }}></div>
+                    <h4 className="post-meta has-text-weight-bold">
+                      {post.frontmatter.company}
+                    </h4>
                     <p className="post-meta">
-                      {post.frontmatter.date}
+                      {post.frontmatter.date} - {post.frontmatter.location}
                     </p>
                     <p>
                       {post.frontmatter.tags.join(' | ')}
@@ -78,6 +91,8 @@ export default () => (
               }
               frontmatter {
                 title
+                company
+                location
                 tags
                 templateKey
                 date(formatString: "MMM D, YYYY")

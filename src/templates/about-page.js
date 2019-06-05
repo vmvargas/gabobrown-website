@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
@@ -10,15 +10,65 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   return (
     <section className="section section--gradient">
       <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <PageContent className="content" content={content} />
-            </div>
+        <div className="columns is-multiline">
+          <div className="column is-12">
+            <Link
+              className="has-text-weight-bold"
+              to="/">
+              Go Back
+            </Link>
+            <h2 className="title">
+              {title}
+            </h2>
           </div>
+          <div className="column is-4">
+            <img src="https://via.placeholder.com/600x700" alt="asd"></img>
+          </div>
+          <div className="column is-8">
+            <PageContent className="content" content={content} />
+          </div>
+          <div className="column is-12">
+            <h2 className="title">
+              Some squares here
+            </h2>
+          </div>
+          <div className="column is-3">
+            <img src="https://via.placeholder.com/500x300" alt="asd"></img> 
+          </div>
+          <div className="column is-3">
+            <img src="https://via.placeholder.com/500x300" alt="asd"></img> 
+          </div>
+          <div className="column is-3">
+            <img src="https://via.placeholder.com/500x300" alt="asd"></img> 
+          </div>
+          <div className="column is-3">
+            <img src="https://via.placeholder.com/500x300" alt="asd"></img> 
+          </div>
+          <div className="column is-12">
+            <h2 className="title">
+              Feel free
+            </h2>
+          </div>
+          <div className="column is-12">
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+              <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">      
+                  <Link
+                    className="navbar-item has-text-weight-bold"
+                    to="/">
+                    Lorem
+                  </Link>
+                  <Link
+                    className="navbar-item has-text-weight-bold"
+                    to="/">
+                    Lorem
+                  </Link>
+                </div>
+              </div>
+            </nav>
+
+          </div>
+          
         </div>
       </div>
     </section>
