@@ -2,15 +2,21 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
+import Clients from '../components/Clients'
 import Content, { HTMLContent } from '../components/Content'
 
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
+export const AboutPageTemplate = ({ 
+  title,
+  content,
+  contentComponent,
+  clients,
+}) => {
   const PageContent = contentComponent || Content
 
   return (
     <section className="section section--gradient">
       <div className="container">
-        <div className="columns is-multiline">
+        <div className="columns">
           <div className="column is-12">
             <Link
               className="has-text-weight-bold"
@@ -21,29 +27,24 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
               {title}
             </h2>
           </div>
+        </div>
+        <div className="columns">
           <div className="column is-4">
             <img src="https://via.placeholder.com/600x700" alt="asd"></img>
           </div>
           <div className="column is-8">
             <PageContent className="content" content={content} />
           </div>
+        </div>
+        <div className="columns">
           <div className="column is-12">
             <h2 className="title">
               Some squares here
             </h2>
           </div>
-          <div className="column is-3">
-            <img src="https://via.placeholder.com/500x300" alt="asd"></img> 
-          </div>
-          <div className="column is-3">
-            <img src="https://via.placeholder.com/500x300" alt="asd"></img> 
-          </div>
-          <div className="column is-3">
-            <img src="https://via.placeholder.com/500x300" alt="asd"></img> 
-          </div>
-          <div className="column is-3">
-            <img src="https://via.placeholder.com/500x300" alt="asd"></img> 
-          </div>
+        </div>
+        <Clients gridItems={clients.blurbs} />
+        <div className="columns">
           <div className="column is-12">
             <h2 className="title">
               Feel free
@@ -90,6 +91,7 @@ const AboutPage = ({ data }) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
+        clients={post.frontmatter.clients}
       />
     </Layout>
   )
@@ -107,6 +109,25 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
+        image {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        clients {
+          blurbs {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 240, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          heading
+        }
       }
     }
   }
