@@ -1,13 +1,13 @@
 ---
 templateKey: blog-post
-title: The beginners’ guide to brewing with Chemex
+title: A beginners’ guide to brewing with Chemex
 date: 2017-01-04T15:04:10.000Z
 description: >-
   Brewing with a Chemex probably seems like a complicated, time-consuming
   ordeal, but once you get used to the process, it becomes a soothing ritual
   that's worth the effort every time.
 company: Walmart
-location: Miami, FL
+location: 'Miami, FL'
 featuredpost: false
 featuredimage: /img/chemex.jpg
 tags:
