@@ -1,7 +1,9 @@
 ---
 templateKey: about-page
 title: Nice to meet you!
+image: /img/home-jumbotron.jpg
 clients:
+  heading: Some clients I’ve collaborated with
   blurbs:
     - image: /img/coffee.png
     - image: /img/coffee-gear.png

@@ -4,11 +4,13 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Clients from '../components/Clients'
 import Content, { HTMLContent } from '../components/Content'
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 export const AboutPageTemplate = ({ 
   title,
   content,
   contentComponent,
+  image,
   clients,
 }) => {
   const PageContent = contentComponent || Content
@@ -30,7 +32,7 @@ export const AboutPageTemplate = ({
         </div>
         <div className="columns">
           <div className="column is-4">
-            <img src="https://via.placeholder.com/600x700" alt="asd"></img>
+            <PreviewCompatibleImage imageInfo={image} />
           </div>
           <div className="column is-8">
             <PageContent className="content" content={content} />
@@ -39,7 +41,7 @@ export const AboutPageTemplate = ({
         <div className="columns">
           <div className="column is-12">
             <h2 className="title">
-              Some squares here
+              {clients.heading}
             </h2>
           </div>
         </div>
@@ -67,9 +69,7 @@ export const AboutPageTemplate = ({
                 </div>
               </div>
             </nav>
-
           </div>
-          
         </div>
       </div>
     </section>
@@ -77,9 +77,13 @@ export const AboutPageTemplate = ({
 }
 
 AboutPageTemplate.propTypes = {
+  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
+  clients: PropTypes.shape({
+    blurbs: PropTypes.array,
+  }),
 }
 
 const AboutPage = ({ data }) => {
@@ -90,6 +94,7 @@ const AboutPage = ({ data }) => {
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
+        image={post.frontmatter.image}
         content={post.html}
         clients={post.frontmatter.clients}
       />
@@ -104,8 +109,8 @@ AboutPage.propTypes = {
 export default AboutPage
 
 export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+  query AboutPage {
+    markdownRemark(frontmatter: { templateKey: { eq: "about-page" } }) {
       html
       frontmatter {
         title
@@ -117,6 +122,7 @@ export const aboutPageQuery = graphql`
           }
         }
         clients {
+          heading
           blurbs {
             image {
               childImageSharp {
@@ -126,7 +132,6 @@ export const aboutPageQuery = graphql`
               }
             }
           }
-          heading
         }
       }
     }
