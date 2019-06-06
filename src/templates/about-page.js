@@ -12,6 +12,7 @@ export const AboutPageTemplate = ({
   contentComponent,
   image,
   clients,
+  social,
 }) => {
   const PageContent = contentComponent || Content
 
@@ -49,27 +50,23 @@ export const AboutPageTemplate = ({
         <div className="columns">
           <div className="column is-12">
             <h2 className="title">
-              Feel free
+              {social.heading}
             </h2>
           </div>
-          <div className="column is-12">
-            <nav class="navbar" role="navigation" aria-label="main navigation">
-              <div id="navbarBasicExample" class="navbar-menu">
-                <div class="navbar-start">      
-                  <Link
-                    className="navbar-item has-text-weight-bold"
-                    to="/">
-                    Lorem
-                  </Link>
-                  <Link
-                    className="navbar-item has-text-weight-bold"
-                    to="/">
-                    Lorem
-                  </Link>
-                </div>
-              </div>
-            </nav>
-          </div>
+        </div>
+        <div className="columns">
+          {social.blurbs.map((link, ind) => (
+            <div className="column">
+              <a
+                className="is-link has-text-weight-bold"
+                target="_blank"
+                href={link.url}
+                rel="noopener noreferrer">
+                {link.name}
+              </a>
+            </div>
+          ))}
+          <div className={`column is-${12-social.blurbs.length}`}></div>
         </div>
       </div>
     </section>
@@ -82,6 +79,9 @@ AboutPageTemplate.propTypes = {
   content: PropTypes.string,
   contentComponent: PropTypes.func,
   clients: PropTypes.shape({
+    blurbs: PropTypes.array,
+  }),
+  social: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
 }
@@ -97,6 +97,7 @@ const AboutPage = ({ data }) => {
         image={post.frontmatter.image}
         content={post.html}
         clients={post.frontmatter.clients}
+        social={post.frontmatter.social}
       />
     </Layout>
   )
@@ -131,6 +132,13 @@ export const aboutPageQuery = graphql`
                 }
               }
             }
+          }
+        }
+        social {
+          heading
+          blurbs {
+            name
+            url
           }
         }
       }

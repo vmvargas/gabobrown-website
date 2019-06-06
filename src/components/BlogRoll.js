@@ -7,12 +7,6 @@ class BlogRoll extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
-    // const postCounter = 
-    // post.forEach(element => {
-      
-    // });
-
-
     return (
       <div className="columns is-multiline">
         {posts &&

@@ -12,6 +12,7 @@ const AboutPagePreview = ({ entry, widgetFor }) => {
         image={data.image}
         content={widgetFor('body')}
         clients={data.clients || { blurbs: [] }}
+        social={data.social || { blurbs: [] }}
       />
     )
   } else {
