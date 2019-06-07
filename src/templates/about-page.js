@@ -33,7 +33,12 @@ export const AboutPageTemplate = ({
         </div>
         <div className="columns">
           <div className="column is-4">
-            <PreviewCompatibleImage imageInfo={image} />
+            <PreviewCompatibleImage
+              imageInfo={{
+                image: image,
+                alt: `Gabriel Brown Profile Photo`,
+              }}
+            />
           </div>
           <div className="column is-8">
             <PageContent className="content" content={content} />
@@ -56,7 +61,7 @@ export const AboutPageTemplate = ({
         </div>
         <div className="columns">
           {social.blurbs.map(link => (
-            <div className="column">
+            <div className="column" key={link.name}>
               <a
                 className="is-link has-text-weight-bold"
                 target="_blank"
@@ -125,6 +130,7 @@ export const aboutPageQuery = graphql`
         clients {
           heading
           blurbs {
+            name
             image {
               childImageSharp {
                 fluid(maxWidth: 240, quality: 64) {
