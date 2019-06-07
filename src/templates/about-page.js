@@ -55,7 +55,7 @@ export const AboutPageTemplate = ({
           </div>
         </div>
         <div className="columns">
-          {social.blurbs.map((link, ind) => (
+          {social.blurbs.map(link => (
             <div className="column">
               <a
                 className="is-link has-text-weight-bold"

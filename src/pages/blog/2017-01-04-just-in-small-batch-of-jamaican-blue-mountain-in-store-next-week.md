@@ -14,6 +14,13 @@ tags:
   - green beans
   - flavor
   - tasting
+steps:
+  blurbs:
+    - name: Intro
+      description: >-
+      testing
+      ## a little desc 
+      welcome to this step
 ---
 
 We expect the shipment of a limited quantity of green beans next Monday. We’ll be offering the roasted beans from Tuesday, but quantities are limited, so be quick.
