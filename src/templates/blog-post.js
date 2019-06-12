@@ -4,20 +4,17 @@ import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
-// import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import MarkdownContent from '../components/MarkdownContent'
 
 export const BlogPostTemplate = ({
-  content,
-  contentComponent,
-  description,
   company,
   tags,
   title,
   featuredimage,
   helmet,
+  steps,
 }) => {
-  const PostContent = contentComponent || Content
+ 
   return (
     <section className="section">
       {helmet || ''}
@@ -52,22 +49,41 @@ export const BlogPostTemplate = ({
             </div>
           </div>
           ) : null}
-          <div className="column is-12">
-            {/* <p>{description}</p> */}
-            <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
+          {steps &&
+          steps.blurbs.map((step, ind) => (
+            <div className="column is-12" key={step.name + `step-name`}>
+              <div className="columns">  
+                {step.name ? (
+                  <div className="column is-4">
+                    <h2>
+                      {ind.toString().length===1 ? '0'+(parseInt(ind,10)+1) : ind+1}
+                      <span className="has-text-grey-light"
+                        style={{
+                          width: "6em",
+                          display: "inline-block",
+                          borderBottom: "1px solid #979797",
+                          margin: "0 10px"
+                        }}></span>
+                      {step.name}
+                    </h2>
+                  </div>) : null }
+                <div className="column">
+                  <MarkdownContent content={step.description} />
+                </div>
               </div>
-            ) : null}
-          </div>
+            </div>
+          ))}
+          {tags && tags.length ? (
+            <div className="column is-12">
+              <div className="tags">
+                {tags.map(tag => (
+                  <span className="tag" key={tag + `tag`}>
+                    <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                  </span>
+                ))}
+              </div>
+            </div>
+          ) : null}
         </div>
       </div>
     </section>
@@ -75,13 +91,14 @@ export const BlogPostTemplate = ({
 }
 
 BlogPostTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
-  contentComponent: PropTypes.func,
   description: PropTypes.string,
   company: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
   featuredimage: PropTypes.any,
+  steps: PropTypes.shape({
+    blurbs: PropTypes.array,
+  }),
 }
 
 const BlogPost = ({ data }) => {
@@ -90,8 +107,6 @@ const BlogPost = ({ data }) => {
   return (
     <Layout>
       <BlogPostTemplate
-        content={post.html}
-        contentComponent={HTMLContent}
         description={post.frontmatter.description}
         company={post.frontmatter.company}
         featuredimage={post.frontmatter.featuredimage}
@@ -106,6 +121,7 @@ const BlogPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        steps={post.frontmatter.steps}
       />
     </Layout>
   )
@@ -123,7 +139,6 @@ export const pageQuery = graphql`
   query BlogPostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
-      html
       frontmatter {
         date(formatString: "MMM DD, YYYY")
         title
@@ -135,6 +150,12 @@ export const pageQuery = graphql`
             fluid(maxWidth: 960, quality: 100) {
               ...GatsbyImageSharpFluid
             }
+          }
+        }
+        steps {
+          blurbs {
+            name
+            description
           }
         }
       }

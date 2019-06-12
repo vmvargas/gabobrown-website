@@ -17,6 +17,20 @@ $footer-padding: 1.5rem
 // Import only what you need from Bulma
 @import node_modules/bulma/bulma
 
+// blog post markdown rendered styles
+.markdown-styled   
+  ul
+    list-style: none
+    li 
+      text-indent: -25px
+      &:before
+        content: "-"
+        margin-right: 10px
+
+  h1, h2, h3, h4, h5, h6
+    @extend .has-text-weight-bold
+    font-size: 1em
+
 // Update Bulma's component variables
 // .navbar .navbar-menu
 //   box-shadow:none !important
