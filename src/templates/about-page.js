@@ -15,6 +15,7 @@ export const AboutPageTemplate = ({
   social,
 }) => {
   const PageContent = contentComponent || Content
+  const socialLinkLen = 12 - (social.links ? social.links.length : 0)
 
   return (
     <section className="section section--gradient">
@@ -36,7 +37,7 @@ export const AboutPageTemplate = ({
             <PreviewCompatibleImage
               imageInfo={{
                 image: image,
-                alt: `Gabriel Brown Profile Photo`,
+                alt: `Gabriel Brown Profile Picture`,
               }}
             />
           </div>
@@ -51,7 +52,7 @@ export const AboutPageTemplate = ({
             </h2>
           </div>
         </div>
-        <Clients gridItems={clients.blurbs} />
+        <Clients gridItems={clients.logos} />
         <div className="columns">
           <div className="column is-12">
             <h2 className="title">
@@ -60,7 +61,8 @@ export const AboutPageTemplate = ({
           </div>
         </div>
         <div className="columns">
-          {social.blurbs.map(link => (
+          {social.links && social.links.length ?
+            (social.links.map(link => (
             <div className="column" key={link.name}>
               <a
                 className="is-link has-text-weight-bold"
@@ -70,8 +72,8 @@ export const AboutPageTemplate = ({
                 {link.name}
               </a>
             </div>
-          ))}
-          <div className={`column is-${12-social.blurbs.length}`}></div>
+          ))) : null }
+          <div className={`column is-${socialLinkLen}`}></div>
         </div>
       </div>
     </section>
@@ -81,13 +83,13 @@ export const AboutPageTemplate = ({
 AboutPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string.isRequired,
-  content: PropTypes.string,
+  content: PropTypes.any,
   contentComponent: PropTypes.func,
   clients: PropTypes.shape({
-    blurbs: PropTypes.array,
+    logos: PropTypes.array,
   }),
   social: PropTypes.shape({
-    blurbs: PropTypes.array,
+    links: PropTypes.array,
   }),
 }
 
@@ -109,7 +111,11 @@ const AboutPage = ({ data }) => {
 }
 
 AboutPage.propTypes = {
-  data: PropTypes.object.isRequired,
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.shape({
+      frontmatter: PropTypes.object,
+    }),
+  }),
 }
 
 export default AboutPage
@@ -129,7 +135,7 @@ export const aboutPageQuery = graphql`
         }
         clients {
           heading
-          blurbs {
+          logos {
             name
             image {
               childImageSharp {
@@ -142,7 +148,7 @@ export const aboutPageQuery = graphql`
         }
         social {
           heading
-          blurbs {
+          links {
             name
             url
           }

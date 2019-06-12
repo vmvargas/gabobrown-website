@@ -3,21 +3,22 @@ import PropTypes from 'prop-types'
 import { AboutPageTemplate } from '../../templates/about-page'
 
 const AboutPagePreview = ({ entry, widgetFor }) => {
-  const data = entry.getIn(['data']).toJS()
+  const entryLogos = entry.getIn(['data', 'clients', 'logos'])
+  const logos = entryLogos ? entryLogos.toJS() : []
 
-  if (data) {
-    return (
-      <AboutPageTemplate
-        title={data.title}
-        image={data.image}
-        content={widgetFor('body')}
-        clients={data.clients || { blurbs: [] }}
-        social={data.social || { blurbs: [] }}
-      />
-    )
-  } else {
-    return <div>Loading...</div>
-  }
+  const entryLinks = entry.getIn(['data', 'social', 'links'])
+  const links = entryLinks ? entryLinks.toJS() : []
+
+
+  return (
+    <AboutPageTemplate
+      title={entry.getIn(['data', 'title'])}
+      image={entry.getIn(['data', 'image'])}
+      content={widgetFor('body')}
+      clients={{logos}}
+      social={{links}}
+    />
+  )
 }
 
 

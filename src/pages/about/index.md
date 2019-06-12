@@ -4,7 +4,7 @@ title: Nice to meet you!
 image: /img/home-jumbotron.jpg
 clients:
   heading: Some clients I’ve collaborated with
-  blurbs:
+  logos:
     - image: /img/coffee.png
       name: Coffee
     - image: /img/coffee-gear.png
@@ -15,7 +15,7 @@ clients:
       name: Meeting Space
 social:
   heading: Feel free to live
-  blurbs:
+  links:
     - name: Linkedin
       url: https://linkedin.com
     - name: Google

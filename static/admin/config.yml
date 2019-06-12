@@ -21,7 +21,6 @@ collections:
       - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Steps", name: steps, widget: object, fields: [{label: Blurbs, name: blurbs, widget: list, fields: [{label: Name, name: name, widget: string}, {label: "Description", name: "description", widget: "markdown"}]}]}
-      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
   - name: "pages"
     label: "Pages"
@@ -61,8 +60,8 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Image", name: "image", widget: "image"}
           - {label: "Body", name: "body", widget: "markdown"}
-          - {label: Clients, name: clients, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Name, name: name, widget: string}, {label: Image, name: image, widget: image}]}]}
-          - {label: Social, name: soical, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Name, name: name, widget: string}, {label: URL, name: url, widget: string}]}]}
+          - {label: Clients, name: clients, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Logos, name: logos, widget: list, fields: [{label: Name, name: name, widget: string}, {label: Image, name: image, widget: image}]}]}
+          - {label: Social, name: soical, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Links, name: links, widget: list, fields: [{label: Name, name: name, widget: string}, {label: URL, name: url, widget: string}]}]}
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"
