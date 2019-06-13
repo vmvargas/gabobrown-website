@@ -13,13 +13,11 @@ clients:
       name: Tutorials
     - image: /img/meeting-space.png
       name: Meeting Space
-social:
-  heading: Feel free to live
+soical:
+  heading: title social asd
   links:
-    - name: Linkedin
-      url: https://linkedin.com
-    - name: Google
-      url: https://google.com
+    - name: goo
+      url: google.com
 ---
 Whisk is an app that helps busy home cooks plan and cook multiple dishes efficiently for their friends and family. It keeps track of your available ingredients, provide relevant recipe suggestions, and simplifies the cooking process by merging all the instructions into a single list of steps.
 
