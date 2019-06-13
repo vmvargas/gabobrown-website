@@ -16,8 +16,8 @@ clients:
 social:
   heading: title social asd
   links:
-    - name: goo
-      url: google.com
+    - name: ok
+      url: 'https://asd.com'
 ---
 Whisk is an app that helps busy home cooks plan and cook multiple dishes efficiently for their friends and family. It keeps track of your available ingredients, provide relevant recipe suggestions, and simplifies the cooking process by merging all the instructions into a single list of steps.
 
