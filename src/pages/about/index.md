@@ -13,7 +13,7 @@ clients:
       name: Tutorials
     - image: /img/meeting-space.png
       name: Meeting Space
-soical:
+social:
   heading: title social asd
   links:
     - name: goo

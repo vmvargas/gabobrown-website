@@ -12,11 +12,17 @@ const AboutPagePreview = ({ entry, widgetFor }) => {
 
   return (
     <AboutPageTemplate
+      content={widgetFor('body')}
       title={entry.getIn(['data', 'title'])}
       image={entry.getIn(['data', 'image'])}
-      content={widgetFor('body')}
-      clients={{logos}}
-      social={{links}}
+      clients={{
+        heading: entry.getIn(['data', 'clients', 'heading']),
+        logos: logos,
+      }}
+      social={{
+        heading: entry.getIn(['data', 'social', 'heading']),
+        links: links,
+      }}
     />
   )
 }

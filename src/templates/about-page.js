@@ -86,9 +86,11 @@ AboutPageTemplate.propTypes = {
   content: PropTypes.any,
   contentComponent: PropTypes.func,
   clients: PropTypes.shape({
+    heading: PropTypes.string,
     logos: PropTypes.array,
   }),
   social: PropTypes.shape({
+    heading: PropTypes.string,
     links: PropTypes.array,
   }),
 }
