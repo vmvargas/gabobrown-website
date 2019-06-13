@@ -49,30 +49,31 @@ export const PortfolioPostTemplate = ({
             </div>
           </div>
           ) : null}
-          {steps &&
-          steps.blurbs.map((step, ind) => (
-            <div className="column is-12" key={step.name + `step-name`}>
-              <div className="columns">  
-                {step.name ? (
-                  <div className="column is-4">
-                    <h2>
-                      {ind.toString().length===1 ? '0'+(parseInt(ind,10)+1) : ind+1}
-                      <span className="has-text-grey-light"
-                        style={{
-                          width: "6em",
-                          display: "inline-block",
-                          borderBottom: "1px solid #979797",
-                          margin: "0 10px"
-                        }}></span>
-                      {step.name}
-                    </h2>
-                  </div>) : null }
-                <div className="column">
-                  <MarkdownContent content={step.description} />
+          {steps.blurbs && steps.blurbs.length ?
+            (steps.blurbs.map((step, ind) => (
+              <div className="column is-12" key={step.name + `step-name`}>
+                <div className="columns">  
+                  {step.name ? (
+                    <div className="column is-4">
+                      <h2>
+                        {ind.toString().length===1 ? '0'+(parseInt(ind,10)+1) : ind+1}
+                        <span className="has-text-grey-light"
+                          style={{
+                            width: "6em",
+                            display: "inline-block",
+                            borderBottom: "1px solid #979797",
+                            margin: "0 10px"
+                          }}></span>
+                        {step.name}
+                      </h2>
+                    </div>) : null }
+                  <div className="column">
+                    <MarkdownContent content={step.description} />
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+              ))
+            ) : null }
           {tags && tags.length ? (
             <div className="column is-12">
               <div className="tags">
