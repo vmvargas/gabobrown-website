@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import BlogRoll from '../components/BlogRoll'
+import PortfolioRoll from '../components/PortfolioRoll'
 
 export const HomePageTemplate = ({
   title1,
@@ -44,7 +44,7 @@ export const HomePageTemplate = ({
   </section>
   <section className="section">
     <div className="container">
-      <BlogRoll />
+      <PortfolioRoll />
     </div>
   </section>
 </div>

@@ -6,13 +6,13 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "src/pages/blog"
+  - name: "portfolio"
+    label: "Porfolio"
+    folder: "src/pages/portfolio"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "portfolio-post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
@@ -20,12 +20,12 @@ collections:
       - {label: "Location", name: "location", widget: "string"}
       - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Steps", name: steps, widget: object, fields: [{label: Blurbs, name: blurbs, widget: list, fields: [{label: Name, name: name, widget: string}, {label: "Description", name: "description", widget: "markdown"}]}]}
+      - {label: "Steps", name: steps, widget: object, fields: [{label: Row, name: row, widget: list, fields: [{label: Name, name: name, widget: string}, {label: "Description", name: "description", widget: "markdown"}]}]}
       - {label: "Tags", name: "tags", widget: "list"}
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/home/index.md"
+      - file: "src/pages/index.md"
         label: "Home"
         name: "home"
         fields:
@@ -39,7 +39,7 @@ collections:
           - {label: Description4, name: description4, widget: string}
           - {label: Description5, name: description5, widget: string}
           - {label: Description6, name: description6, widget: string}
-      - file: "src/pages/index.md"
+      - file: "src/pages/home/index.md"
         label: "Landing Page"
         name: "index"
         fields:

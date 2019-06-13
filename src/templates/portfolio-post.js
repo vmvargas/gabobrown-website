@@ -6,7 +6,7 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import MarkdownContent from '../components/MarkdownContent'
 
-export const BlogPostTemplate = ({
+export const PortfolioPostTemplate = ({
   company,
   tags,
   title,
@@ -90,7 +90,7 @@ export const BlogPostTemplate = ({
   )
 }
 
-BlogPostTemplate.propTypes = {
+PortfolioPostTemplate.propTypes = {
   description: PropTypes.string,
   company: PropTypes.string,
   title: PropTypes.string,
@@ -101,17 +101,17 @@ BlogPostTemplate.propTypes = {
   }),
 }
 
-const BlogPost = ({ data }) => {
+const PortfolioPost = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <BlogPostTemplate
+      <PortfolioPostTemplate
         description={post.frontmatter.description}
         company={post.frontmatter.company}
         featuredimage={post.frontmatter.featuredimage}
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet titleTemplate="%s | Portfolio">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
@@ -127,16 +127,16 @@ const BlogPost = ({ data }) => {
   )
 }
 
-BlogPost.propTypes = {
+PortfolioPost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default BlogPost
+export default PortfolioPost
 
 export const pageQuery = graphql`
-  query BlogPostByID($id: String!) {
+  query PortfolioPostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       frontmatter {
