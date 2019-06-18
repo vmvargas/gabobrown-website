@@ -12,7 +12,7 @@ featuredimage: /img/jumbotron.jpg
 steps:
   row:
     - description: asdasd
-      name: asd
+      name: ''
 tags:
   - jamaica
   - green beans
