@@ -5,6 +5,10 @@ $orange: #F05C51
 // Updating Bulma's global variables
 $primary: $orange
 $link: $orange
+$link-hover: $orange
+$link-active: $orange
+$link-focus: $orange
+$navbar-item-active-color: $orange
 $grey-dark: rgba(0,0,0,0.7)
 $body-color: rgba(0,0,0,0.8)
 $black: #000
@@ -16,6 +20,7 @@ $footer-background-color: #fff
 $footer-padding: 1.5rem
 // Import only what you need from Bulma
 @import node_modules/bulma/bulma
+
 
 // blog post markdown rendered styles
 .markdown-styled   
@@ -31,6 +36,15 @@ $footer-padding: 1.5rem
     @extend .has-text-weight-bold
     font-size: 1em
 
+// Main menu
+#navMenu
+  .navbar-item:not(:first-child)
+    &:before
+      content: "|"
+      padding-right: 1em
+      color: rgba(0,0,0,0.8)
+
+  
 // Update Bulma's component variables
 // .navbar .navbar-menu
 //   box-shadow:none !important
