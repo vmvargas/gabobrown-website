@@ -56,12 +56,7 @@ const Navbar = class extends React.Component {
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
             </div>
-            <Link to="/" className="navbar-item" title="Logo"
-            style={{
-              position: 'fixed',
-              top: '20px',
-              right: '20px',
-            }}>
+            <Link to="/" className="navbar-item" id="mobile-logo" title="Logo">
               <img src={GabrielBrownLogo} alt="Gabriel Brown" style={{ width: "40px", maxHeight: "100%" }} />
             </Link>
           </div>
@@ -85,6 +80,11 @@ const Navbar = class extends React.Component {
                 rel="noopener noreferrer">
                 Contact
               </a>
+            </div>
+            <div className="navbar-end">
+              <Link to="/" className="navbar-item" id="desktop-logo" title="Logo">
+                <img src={GabrielBrownLogo} alt="Gabriel Brown" style={{ width: "40px", maxHeight: "100%" }} />
+              </Link>
             </div>
           </div>
         </div>

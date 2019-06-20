@@ -21,6 +21,9 @@ $footer-padding: 1.5rem
 // Import only what you need from Bulma
 @import node_modules/bulma/bulma
 
+//globals
+h1, h2, h3, h4, h5, h6
+  color: $black
 
 // blog post markdown rendered styles
 .markdown-styled   
@@ -35,15 +38,39 @@ $footer-padding: 1.5rem
   h1, h2, h3, h4, h5, h6
     @extend .has-text-weight-bold
     font-size: 1em
+    color: $black
 
 // Main menu
 #navMenu
-  .navbar-item:not(:first-child)
-    &:before
-      content: "|"
-      padding-right: 1em
-      color: rgba(0,0,0,0.8)
+   .navbar-item
+    font-size: 0.92em
+    font-weight: 300
++desktop
+  #mobile-logo
+    display: none
+  #navMenu
+    padding-top: 2em
+    >.navbar-start
+      .navbar-item:first-child
+        padding-right: 1rem
+      .navbar-item:not(:first-child)
+        padding-right: 1rem
+        padding-left: 1rem
+        &:before
+          content: "|"
+          padding-right: 2rem
+          color: rgba(0,0,0,0.8)
++mobile
+  #desktop-logo
+    display: none
 
+//home hero intro
+.hero.is-medium
+  .hero-body
+    padding-bottom: 7rem
+    padding-top: 7rem
+    
+  
   
 // Update Bulma's component variables
 // .navbar .navbar-menu
@@ -147,7 +174,7 @@ $footer-padding: 1.5rem
 //     vertical-align: middle
 //     display: inline
 
-// // blog roll
+// blog roll
 // .blog-list-item.is-featured
 //   background-color: #d6400033;
 // .blog-list-item header

@@ -8,53 +8,48 @@ class PortfolioRoll extends React.Component {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
     return (
-      <div className="columns is-multiline">
+      <div>
         {posts &&
           posts.map(({ node: post }, ind) => (
-            
-            <div className="column is-12" key={post.id}>
-              <article
-                className={`${post.frontmatter.featuredpost ? 'is-featured' : ''}`}
-              >
-                <header className="columns">
-                  <div className="column">   
-                    <p>
-                      {ind.toString().length===1 ? '0'+(parseInt(ind,10)+1) : ind+1}
-                    </p>
-                    <Link
-                      className="title is-size-4 post-meta"
-                      to={post.fields.slug}
-                    >
-                      {post.frontmatter.title}
-                    </Link>
-                    <div style={{
-                      height: '32px',
-                    }}></div>
-                    <h4 className="post-meta has-text-weight-bold">
-                      {post.frontmatter.company}
-                    </h4>
-                    <p className="post-meta">
-                      {post.frontmatter.date} - {post.frontmatter.location}
-                    </p>
-                    <p>
-                      {post.frontmatter.tags.join(' | ')}
-                    </p>
-                  </div>
-                  {post.frontmatter.featuredimage ? (
-                    <div className="column is-7 featured-thumbnail">
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${
-                            post.title
-                          }`,
-                        }}
-                      />
-                    </div>
-                  ) : null}
-                </header>
-              </article>
-            </div>
+            <article  key={post.id}
+              className={`columns is-tablet ${post.frontmatter.featuredpost ? 'is-featured' : ''}`}
+            >
+              <div className="column is-one-quarter-tablet">   
+                <p>
+                  {ind.toString().length===1 ? '0'+(parseInt(ind,10)+1) : ind+1}
+                </p>
+                <Link
+                  className="title is-size-4 post-meta"
+                  to={post.fields.slug}
+                >
+                  {post.frontmatter.title}
+                </Link>
+                <div style={{
+                  height: '32px',
+                }}></div>
+                <h4 className="post-meta has-text-weight-bold">
+                  {post.frontmatter.company}
+                </h4>
+                <p className="post-meta">
+                  {post.frontmatter.date} - {post.frontmatter.location}
+                </p>
+                <p>
+                  {post.frontmatter.tags.join(' | ')}
+                </p>
+              </div>
+              {post.frontmatter.featuredimage ? (
+                <div className="column featured-thumbnail">
+                  <PreviewCompatibleImage
+                    imageInfo={{
+                      image: post.frontmatter.featuredimage,
+                      alt: `featured image thumbnail for post ${
+                        post.title
+                      }`,
+                    }}
+                  />
+                </div>
+              ) : null}
+            </article>
           ))}
       </div>
     )
