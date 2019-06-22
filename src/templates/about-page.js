@@ -14,11 +14,10 @@ export const AboutPageTemplate = ({
   clients,
   social,
 }) => {
-  const PageContent = contentComponent || Content
-  const socialLinkLen = 12 - (social.links ? social.links.length : 0)
+  const PageContent = contentComponent || Content;
 
   return (
-    <section className="section section--gradient">
+    <section className="section">
       <div className="container">
         <div className="columns">
           <div className="column is-12">
@@ -27,12 +26,21 @@ export const AboutPageTemplate = ({
               to="/">
               Go Back
             </Link>
-            <h2 className="title">
+            <div className="is-hidden-touch" style={{
+              height: '1em',
+            }}></div>
+            <h1 className="is-size-1 has-text-black" style={{
+              fontWeight: "500",
+              lineHeight: "1.25",
+              marginBottom: "0.4em",
+            }}>
               {title}
-            </h2>
+            </h1>
           </div>
         </div>
-        <div className="columns">
+        <div className="columns" style={{
+          marginBottom: "2.5em"
+        }}>
           <div className="column is-4">
             <PreviewCompatibleImage
               imageInfo={{
@@ -47,23 +55,48 @@ export const AboutPageTemplate = ({
         </div>
         <div className="columns">
           <div className="column is-12">
-            <h2 className="title">
+            <h2 className="is-size-1 is-size-3-mobile has-text-black" style={{
+              fontWeight: "500",
+              lineHeight: "1.25",
+              marginBottom: "0.4em",
+            }}>
               {clients.heading}
             </h2>
           </div>
         </div>
         <Clients gridItems={clients.logos} />
-        <div className="columns">
+        <div className="columns" style={{
+          marginBottom: "2em"
+        }}>
           <div className="column is-12">
-            <h2 className="title">
-              {social.heading}
+            <h2 className="is-size-1 is-size-3-mobile has-text-black" style={{
+              fontWeight: "500",
+              lineHeight: "1.25",
+            }}>
+              {social.heading1}
+            </h2>
+            <h2 className="is-size-1 is-size-3-mobile has-text-black" style={{
+              fontWeight: "500",
+              lineHeight: "1.25",
+            }}>
+              {social.heading2}
+            </h2>
+            <h2 className="is-size-1 is-size-3-mobile has-text-black" style={{
+              fontWeight: "500",
+              lineHeight: "1.25",
+            }}>
+              {social.heading3}
             </h2>
           </div>
         </div>
-        <div className="columns">
+        <div className="columns" style={{
+          marginBottom: "1em"
+        }}>
           {social.links && social.links.length ?
             (social.links.map(link => (
-            <div className="column" key={link.name}>
+            <div key={link.name} style={{
+              margin: "0 1em 0",
+            }}>
               <a
                 className="is-link has-text-weight-bold"
                 target="_blank"
@@ -73,7 +106,6 @@ export const AboutPageTemplate = ({
               </a>
             </div>
           ))) : null }
-          <div className={`column is-${socialLinkLen}`}></div>
         </div>
       </div>
     </section>
@@ -90,7 +122,9 @@ AboutPageTemplate.propTypes = {
     logos: PropTypes.array,
   }),
   social: PropTypes.shape({
-    heading: PropTypes.string,
+    heading1: PropTypes.string,
+    heading2: PropTypes.string,
+    heading3: PropTypes.string,
     links: PropTypes.array,
   }),
 }
@@ -149,7 +183,9 @@ export const aboutPageQuery = graphql`
           }
         }
         social {
-          heading
+          heading1
+          heading2
+          heading3
           links {
             name
             url

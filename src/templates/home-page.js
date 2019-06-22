@@ -22,33 +22,27 @@ export const HomePageTemplate = ({
       <div className="container">
         <div className="columns is-desktop">
           <div className="column is-8">
-            <h1 className="title" style={{
-              fontSize: "50px",
+            <h1 className="title is-size-1" style={{
               marginBottom: "0.5rem"
             }}>
               {title1}
             </h1>
-            <h1 className="title" style={{
-              fontSize: "50px",
+            <h1 className="title is-size-1" style={{
               marginBottom: "0.5rem"
             }}>
               {title2}
             </h1>
             <h3 className="has-text-weight-light has-text-grey-dark" style={{
-              fontSize: "30px",
+              fontSize: "1.7em",
               fontWeight: "300",
               marginBottom: "1.5rem"
             }}>
               {title3}
             </h3>
-            <h5 className="has-text-grey-dark" style={{
-              fontSize: "20px"
-            }}>
+            <h5 className="has-text-grey-dark is-size-5">
               {description1} <span className="has-text-weight-bold has-text-primary">{description2}</span> {description3}
             </h5>
-            <h5 className="has-text-grey-dark" style={{
-              fontSize: "20px"
-            }}>
+            <h5 className="has-text-grey-dark is-size-5">
               {description4} <span className="has-text-weight-bold has-text-primary">{description5}</span> {description6}
             </h5>
           </div>

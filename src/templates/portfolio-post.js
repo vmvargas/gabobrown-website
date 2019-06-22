@@ -21,31 +21,39 @@ export const PortfolioPostTemplate = ({
       <div className="container">
         <div className="columns is-multiline">
           <div className="column is-12">
-            <Link
-              className="has-text-weight-bold	"
-              to="/"
-            >
+          <Link
+              className="has-text-weight-bold"
+              to="/">
               Go Back
             </Link>
-            <h1 className="title">
+            <div className="is-hidden-touch" style={{
+              height: '1em',
+            }}></div>
+            <h1 className="is-size-1 has-text-black" style={{
+              fontWeight: "500",
+              lineHeight: "1.25",
+              marginBottom: "0.15em",
+            }}>
               {title}
             </h1>
-            <h3 className="subtitle">
+            <h3 className="has-text-weight-light has-text-grey-dark" style={{
+              fontSize: "1.7em",
+              fontWeight: "300",
+              marginBottom: "0.5rem"
+            }}>
               {company}
             </h3>
           </div>
           {featuredimage ? (
           <div className="column is-12">
-            <div
-              style={{
-                backgroundImage: `url(${
-                  !!featuredimage.childImageSharp ? featuredimage.childImageSharp.fluid.src : featuredimage
-                })`,
-                backgroundPosition: `center`,
-                backgroundSize: `cover`,
-                height: `450px`,
-              }}
-            >
+            <div style={{
+              backgroundImage: `url(${
+                !!featuredimage.childImageSharp ? featuredimage.childImageSharp.fluid.src : featuredimage
+              })`,
+              backgroundPosition: `center`,
+              backgroundSize: `cover`,
+              height: `450px`,
+            }}>
             </div>
           </div>
           ) : null}
@@ -55,11 +63,14 @@ export const PortfolioPostTemplate = ({
                 <div className="columns">  
                   {step.name ? (
                     <div className="column is-4">
-                      <h2>
+                      <h2 style={{
+                        fontSize: "1.22em",
+                        color: "rgba(0,0,0,0.8)",
+                      }}>
                         {ind.toString().length===1 ? '0'+(parseInt(ind,10)+1) : ind+1}
                         <span className="has-text-grey-light"
                           style={{
-                            width: "6em",
+                            width: "5.5em",
                             display: "inline-block",
                             borderBottom: "1px solid #979797",
                             margin: "0 10px"
@@ -67,9 +78,15 @@ export const PortfolioPostTemplate = ({
                         {step.name}
                       </h2>
                     </div>) : null }
-                  <div className="column">
-                    <MarkdownContent content={step.description} />
-                  </div>
+                  {step.name ? (
+                    <div className="column" style={{marginTop: "1.7em"}}>
+                      <MarkdownContent content={step.description} />
+                    </div>
+                  ) :
+                    <div className="column">
+                      <MarkdownContent content={step.description} />
+                    </div>
+                  }
                 </div>
               </div>
               ))

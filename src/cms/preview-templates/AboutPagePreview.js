@@ -9,7 +9,6 @@ const AboutPagePreview = ({ entry, widgetFor }) => {
   const entryLinks = entry.getIn(['data', 'social', 'links'])
   const links = entryLinks ? entryLinks.toJS() : []
 
-
   return (
     <AboutPageTemplate
       content={widgetFor('body')}
@@ -20,7 +19,9 @@ const AboutPagePreview = ({ entry, widgetFor }) => {
         logos: logos,
       }}
       social={{
-        heading: entry.getIn(['data', 'social', 'heading']),
+        heading1: entry.getIn(['data', 'social', 'heading1']),
+        heading2: entry.getIn(['data', 'social', 'heading2']),
+        heading3: entry.getIn(['data', 'social', 'heading3']),
         links: links,
       }}
     />

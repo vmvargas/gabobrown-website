@@ -13,27 +13,44 @@ class PortfolioRoll extends React.Component {
           posts.map(({ node: post }, ind) => (
             <article  key={post.id}
               className={`columns is-tablet ${post.frontmatter.featuredpost ? 'is-featured' : ''}`}
+              style={{
+                marginBottom: "4.06rem"
+              }}
             >
-              <div className="column is-one-quarter-tablet">   
-                <p>
+              <div className="column is-one-third-tablet" style={{
+                alignSelf: "flex-end",
+              }}>   
+                <p className="has-text-grey-dark" style={{
+                  marginBottom: "10px"
+                }}>
                   {ind.toString().length===1 ? '0'+(parseInt(ind,10)+1) : ind+1}
                 </p>
-                <Link
-                  className="title is-size-4 post-meta"
-                  to={post.fields.slug}
+                <Link to={post.fields.slug} className="post-meta">
+                <h2
+                  className="has-text-black"
+                  style={{
+                    fontSize: "1.7em",
+                    fontWeight: "500",
+                    lineHeight: "1.1"
+                  }}
                 >
                   {post.frontmatter.title}
+                </h2>
                 </Link>
                 <div style={{
-                  height: '32px',
+                  height: '1.8em',
                 }}></div>
-                <h4 className="post-meta has-text-weight-bold">
+                <h4 className="post-meta has-text-black" style={{
+                  fontSize: "1.22em",
+                  fontWeight: "500",
+                  marginBottom: "10px"
+                }}>
                   {post.frontmatter.company}
                 </h4>
-                <p className="post-meta">
+                <p className="post-meta has-text-grey-dark">
                   {post.frontmatter.date} - {post.frontmatter.location}
                 </p>
-                <p>
+                <p className="has-text-grey-dark">
                   {post.frontmatter.tags.join(' | ')}
                 </p>
               </div>
@@ -84,7 +101,7 @@ export default () => (
                 location
                 tags
                 templateKey
-                date(formatString: "MMM D, YYYY")
+                date(formatString: "MMM YYYY")
                 featuredpost
                 featuredimage {
                   childImageSharp {

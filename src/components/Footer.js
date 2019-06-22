@@ -1,11 +1,4 @@
 import React from 'react'
-// import { Link } from 'gatsby'
-
-// import logo from '../img/logo.svg'
-// import facebook from '../img/social/facebook.svg'
-// import instagram from '../img/social/instagram.svg'
-// import twitter from '../img/social/twitter.svg'
-// import vimeo from '../img/social/vimeo.svg'
 
 const Footer = class extends React.Component {
   render() {
@@ -14,27 +7,34 @@ const Footer = class extends React.Component {
         <div className="content">
           <div className="container"
             style={{
-            borderTop: '1px solid #979797',
+              borderTop: '1px solid #979797',
+              paddingTop: "14px"
             }}
           >
-            <div className="columns">
+            <div className="columns is-mobile">
               <div className="column is-6">
                 <p
-                  className="subtitle is-7"
-                >Made by 
+                  style={{
+                    fontSize: "12px",
+                    color: "#000"
+                  }}
+                >Made by&nbsp;
                   <a
                     href="https://www.vmvargas.com/"
                     target="_blank"
                     rel="noopener noreferrer"                    
                   >
-                  vmvargas.com
+                   vmvargas.com
                   </a>
                 </p>
               </div>
               <div className="column is-6 has-text-right">
                 <p
-                  className="subtitle is-7"
-                >&copy; Copyright Gabriel Brown 2019</p>
+                  style={{
+                    fontSize: "12px",
+                    color: "#000"
+                  }}
+                >&copy; Gabriel Brown 2019</p>
               </div>
             </div>
           </div>

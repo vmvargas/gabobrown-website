@@ -14,12 +14,16 @@ clients:
     - image: /img/meeting-space.png
       name: Meeting Space
 social:
-  heading: title social asd
+  heading1: Feel free to contact me!
+  heading2: I'm on the lookout for new work
+  heading3: opportunities and I'd love to collaborate.
   links:
-    - name: ok
-      url: 'https://asd.com'
-    - name: yep
-      url: 'https://yep.com'
+    - name: Linkedin
+      url: 'https://www.linkedin.com/in/gabriel-brown-9435b380'
+    - name: E-mail
+      url: 'mailto:gabobrown.design@gmail.com'
+    - name: Instagram
+      url: 'https://www.instagram.com/gabobrown/'
 ---
 Whisk is an app that helps busy home cooks plan and cook multiple dishes efficiently for their friends and family. It keeps track of your available ingredients, provide relevant recipe suggestions, and simplifies the cooking process by merging all the instructions into a single list of steps.
 
