@@ -65,9 +65,12 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-            <Link className="navbar-item" to="/">
+            <a className="navbar-item"
+                href="./img/GabrielBrown-CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer">
                 Resume
-              </Link>
+              </a>
               <Link className="navbar-item" activeClassName="is-active" to="/">
                 Portfolio
               </Link>
