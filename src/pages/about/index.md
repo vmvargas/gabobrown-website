@@ -23,8 +23,8 @@ clients:
       name: interamerican-development-bank
 social:
   heading1: Feel free to contact me!
-  heading2: I'm on the lookout for new work
-  heading3: opportunities and I'd love to collaborate
+  heading2: I'm on the lookout for new projects
+  heading3: and I'd love to collaborate
   links:
     - name: Linkedin
       url: 'https://www.linkedin.com/in/gabriel-brown-9435b380'
