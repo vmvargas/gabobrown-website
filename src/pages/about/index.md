@@ -5,8 +5,8 @@ image: /img/home-jumbotron.jpg
 clients:
   heading: Some clients I’ve collaborated with
   logos:
-    - image: /img/coffee.png
-      name: Coffee
+    - image: /img/client-blueliv.jpg
+      name: Blueliv
     - image: /img/coffee-gear.png
       name: Cofee Gear
     - image: /img/tutorials.png
