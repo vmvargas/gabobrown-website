@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: Nice to meet you!
+title: 'Howdy! I''m Gabriel, but you can call me Gabo.'
 image: /img/home-jumbotron.jpg
 clients:
   heading: Some clients I’ve collaborated with
@@ -33,17 +33,16 @@ social:
     - name: Instagram
       url: 'https://www.instagram.com/gabobrown/'
 ---
-Whisk is an app that helps busy home cooks plan and cook multiple dishes efficiently for their friends and family. It keeps track of your available ingredients, provide relevant recipe suggestions, and simplifies the cooking process by merging all the instructions into a single list of steps.
-
-In this project, I worked closely with 3 students and took the lead to design our deliverable and the visuals of the application. Later on, I took the initiative to redesign the whole app. See the final work.
+I'm a full-stack product designer with years of experience in visual and interaction design, capable of crafting world-class products from scratch.
 
 
-We began the project by conducting semi-structured interviews with adults home cooks that don’t cook as an occupation to understand their cooking habits, meal choices, struggles, and so on. We also conducted a competitive analysis with products related to our user group such as Blue Apron, FridgeCam, BuzzFeed Tasty, and others to understand the scope of existing solutions within this problem space.
 
-**Pain Points**
-From our research, we mainly realized that our interviewees:
+My most recent work was with [**Loycus App**](https://www.loycus.com) where I'm currently designing for some of its core offerings like Social Media Engagement, Social Advertising and a CRM Software for all sizes companies that helped integrate all their social marketing needs under one roof. Working with the design team for six months in this young, rapidly growing enterprise startup environment - taught me how to balance business goals and engineering constraints as I unrelentingly advocated for the user.
 
-* Find it difficult to cook several dishes at the same time.
 
-**Synthesis**
-With our research leanings, we created 2 personas that embodied the archetypes of our user group. We then mapped out the user journey of our persona Ray, including his thoughts and feelings during his typical weekday. From this, we were able to temporally visualize Ray's areas of frustrations and create a focal point on the problem space.
+
+I graduated from The Institute of Design of Caracas, Venezuela with a degree in Graphic Design and then I did my first MA in Graphic Media at the [**University of The Arts: London**](https://www.arts.ac.uk). I love human-centered design methods and everything that is related to inclusive design.
+
+
+
+I grew up between so many cultures that my ability to quickly adjust to new challenges in life comes from that. Owing to my diverse upbringing, I embrace all cultures and try to bring it to the designs I create.
