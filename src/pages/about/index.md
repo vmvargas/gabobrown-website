@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: 'Howdy! I''m Gabriel, but you can call me Gabo.'
+title: Howdy! Nice to meet you
 image: /img/gabriel-gabo-brown.jpg
 clients:
   heading: Some clients I’ve collaborated with
