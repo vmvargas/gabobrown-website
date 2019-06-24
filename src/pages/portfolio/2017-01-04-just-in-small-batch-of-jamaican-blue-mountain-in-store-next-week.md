@@ -14,9 +14,8 @@ steps:
     - description: asdasd
       name: ''
 tags:
-  - jamaica
-  - green beans
-  - flavor
-  - tasting
+  - UI
+  - UX
+  - Visual Design
 ---
 
