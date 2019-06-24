@@ -6,13 +6,21 @@ clients:
   heading: Some clients I’ve collaborated with
   logos:
     - image: /img/client-blueliv.jpg
-      name: Blueliv
+      name: blueliv-cyber-security
     - image: /img/client-haarper-bazaar.jpg
-      name: Haaper Bazaar
+      name: haaper-bazaar-magazine
     - image: /img/client-resourcify.jpg
-      name: Recourcify
+      name: recourcify
     - image: /img/client-unilever.jpg
-      name: Unilever
+      name: unilever
+    - image: /img/client-mbolden.jpg
+      name: mbolden-women-in-wireless
+    - image: /img/client-mondelez.jpg
+      name: mondelez-international
+    - image: /img/client-daikin.jpg
+      name: daikin-air-conditioner
+    - image: /img/client-interamerican-development-bank.jpg
+      name: interamerican-development-bank
 social:
   heading1: Feel free to contact me!
   heading2: I'm on the lookout for new work
