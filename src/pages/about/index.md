@@ -7,12 +7,12 @@ clients:
   logos:
     - image: /img/client-blueliv.jpg
       name: Blueliv
-    - image: /img/coffee-gear.png
-      name: Cofee Gear
-    - image: /img/tutorials.png
-      name: Tutorials
-    - image: /img/meeting-space.png
-      name: Meeting Space
+    - image: /img/client-haarper-bazaar.jpg
+      name: Haaper Bazaar
+    - image: /img/client-resourcify.jpg
+      name: Recourcify
+    - image: /img/client-unilever.jpg
+      name: Unilever
 social:
   heading1: Feel free to contact me!
   heading2: I'm on the lookout for new work
