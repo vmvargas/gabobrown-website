@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 title: 'Howdy! I''m Gabriel, but you can call me Gabo.'
-image: /img/home-jumbotron.jpg
+image: /img/gabriel-gabo-brown.jpg
 clients:
   heading: Some clients I’ve collaborated with
   logos:
