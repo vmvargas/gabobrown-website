@@ -57,8 +57,8 @@ export const PortfolioPostTemplate = ({
             </div>
           </div>
           ) : null}
-          {steps.blurbs && steps.blurbs.length ?
-            (steps.blurbs.map((step, ind) => (
+          {steps.row && steps.row.length ?
+            (steps.row.map((step, ind) => (
               <div className="column is-12" key={step.name + `step-name`}>
                 <div className="columns">  
                   {step.name ? (
@@ -115,7 +115,7 @@ PortfolioPostTemplate.propTypes = {
   helmet: PropTypes.object,
   featuredimage: PropTypes.any,
   steps: PropTypes.shape({
-    blurbs: PropTypes.array,
+    row: PropTypes.array,
   }),
 }
 
@@ -171,7 +171,7 @@ export const pageQuery = graphql`
           }
         }
         steps {
-          blurbs {
+          row {
             name
             description
           }

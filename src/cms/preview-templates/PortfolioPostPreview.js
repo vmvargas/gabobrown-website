@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 import { PortfolioPostTemplate } from '../../templates/portfolio-post'
 
 const PortfolioPostPreview = ({ entry }) => {
-  const entryBlurbs = entry.getIn(['data', 'steps', 'blurbs'])
-  const blurbs = entryBlurbs ? entryBlurbs.toJS() : []
+  const entryRow = entry.getIn(['data', 'steps', 'row'])
+  const row = entryRow ? entryRow.toJS() : []
 
   return(
     <PortfolioPostTemplate
@@ -17,7 +17,7 @@ const PortfolioPostPreview = ({ entry }) => {
       title={entry.getIn(['data', 'title'])}
       date={entry.getIn(['data', 'date'])}
       steps={{
-        blurbs: blurbs
+        row: row
       }}
     />
   )
