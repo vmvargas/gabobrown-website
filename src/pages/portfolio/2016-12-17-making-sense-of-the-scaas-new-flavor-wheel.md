@@ -1,6 +1,6 @@
 ---
 templateKey: portfolio-post
-title: 'Research App: Development in The Americas.'
+title: 'Skills Bank: A tool to explore effective skills development programs'
 date: 2017-05-01T14:04:10.000Z
 description: >-
   The Coffee Taster’s Flavor Wheel, the official resource used by coffee
