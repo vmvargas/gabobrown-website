@@ -1,6 +1,6 @@
 ---
 templateKey: portfolio-post
-title: 'Joycus: Illustration System'
+title: 'JoyCus: Illustration System'
 date: 2019-06-29T19:22:03.441Z
 description: >-
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus labore
