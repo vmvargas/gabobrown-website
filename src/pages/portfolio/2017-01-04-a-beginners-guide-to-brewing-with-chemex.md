@@ -9,7 +9,7 @@ description: >-
 company: Loycus
 location: 'Madrid, Sapin'
 featuredpost: false
-featuredimage: /img/loycus-gabo-brown-ui-ux.png
+featuredimage: /img/loycus-gabo-brown-ui-ux2.png
 steps: {}
 tags:
   - UI
