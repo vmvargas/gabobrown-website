@@ -9,10 +9,11 @@ description: >-
 company: Resourcify
 location: 'Hamburg, Germany'
 featuredpost: true
-featuredimage: /img/resourcify-gabo-brown-ui-ux.png
+featuredimage: /img/resourcify-gabo-brown-ui-ux2.png
 steps:
   row:
     - description: 'just a test :)'
+      name: Introduction
 tags:
   - UI
   - UX
