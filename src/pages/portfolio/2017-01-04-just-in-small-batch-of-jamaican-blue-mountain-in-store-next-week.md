@@ -8,7 +8,7 @@ description: >-
 company: Blueliv
 location: 'London, United Kingdom'
 featuredpost: true
-featuredimage: /img/blueliv-gabo-brown-ui-ux.png
+featuredimage: /img/blueliv-gabo-brown-ui-ux2.png
 steps:
   row:
     - description: >-
