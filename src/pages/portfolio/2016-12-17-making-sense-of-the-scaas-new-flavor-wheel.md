@@ -8,7 +8,7 @@ description: >-
 company: Inter-American Development Bank
 location: 'New York, NY.'
 featuredpost: false
-featuredimage: /img/skillsbank-gabo-brown-ui-ux.png
+featuredimage: /img/skillsbank-gabo-brown-ui-ux2.png
 steps:
   row:
     - description: >-
