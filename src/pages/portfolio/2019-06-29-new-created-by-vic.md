@@ -9,7 +9,7 @@ description: >-
 company: Loycus
 location: 'Madrid, Spain'
 featuredpost: false
-featuredimage: /img/joycus-gabo-brown-ui-ux.png
+featuredimage: /img/joycus-gabo-brown-ui-ux2.png
 steps:
   row:
     - description: >-
