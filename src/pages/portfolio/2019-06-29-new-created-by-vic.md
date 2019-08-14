@@ -61,7 +61,6 @@ steps:
         talented in some other areas as illustration, data analysis, etc.
       name: Project Lessons
 tags:
-  - UI
-  - Boring
+  - Illustration
 ---
 
