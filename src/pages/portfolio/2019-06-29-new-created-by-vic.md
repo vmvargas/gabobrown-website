@@ -34,7 +34,9 @@ steps:
         creating a style guide and a toolkit. This style defined the palettes,
         forms, and animations.
       name: Introduction
-    - description: '![Illustration-joycus-gabo-brown](/img/joycus1.png "illustration1")'
+    - description: >-
+        ![Illustration-joycus-gabo-brown](/img/illustration-system-joycus-loycus-gabo-brown.png
+        "illustration1")
     - description: >-
         Human figures are used to add warmth, they help build an emotional
         connection and tell the story. Characters are stylized and not
