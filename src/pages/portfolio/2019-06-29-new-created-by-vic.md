@@ -13,10 +13,6 @@ featuredimage: /img/joycus-gabo-brown-ui-ux2.png
 steps:
   row:
     - description: >-
-        ![joycus-illustration-system-gabo-brown-human-figures](/img/joycus-illustration-system-gabo-brown-3.png
-        "Human Figures")
-
-
         In early 2019, we started a pitch at Loycus where I had the chance to
         develop - for the first time in my life - a style for the new
         illustration system. This system was going to be used all over the
@@ -37,11 +33,15 @@ steps:
     - description: >-
         ![Illustration-joycus-gabo-brown](/img/illustration-system-joycus-loycus-gabo-brown.png
         "illustration1")
+      name: ''
     - description: >-
         Human figures are used to add warmth, they help build an emotional
         connection and tell the story. Characters are stylized and not
         anatomically precise. Composed of irregular shapes, characters are
         designed for actions rather than individual identity.
+
+
+        ![human-figures-joycus-gabo-brown](/img/joycus-illustration-system-gabo-brown-3.png)
       name: Human Figures
     - description: >-
         At the essence of Product, Illustration is the clever use of simple
