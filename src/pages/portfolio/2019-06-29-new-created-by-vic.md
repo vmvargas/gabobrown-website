@@ -45,8 +45,13 @@ steps:
       name: ''
     - description: >-
         At the essence of Product, Illustration is the clever use of simple
-        primary shapes. Landscapes, animals, and people are created by adding
-        and subtracting geometric shapes from one another.
+        primary shapes. 
+
+
+        Landscapes, animals, and people are created by adding and subtracting
+        geometric shapes from one another and then to create a little
+        inconsistencies we modify some nods and curves in order to create a more
+        "natural" system.
       name: Exaggerated Forms
     - description: >-
         Illustrations can create inspiring content for the context of what is
