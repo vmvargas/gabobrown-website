@@ -39,10 +39,10 @@ steps:
         connection and tell the story. Characters are stylized and not
         anatomically precise. Composed of irregular shapes, characters are
         designed for actions rather than individual identity.
-
-
-        ![human-figures-joycus-gabo-brown](/img/joycus-illustration-system-gabo-brown-3.png)
       name: Human Figures
+    - description: >-
+        ![human-figures-joycus-gabo-brown](/img/joycus-illustration-system-gabo-brown-3.png)
+      name: ''
     - description: >-
         At the essence of Product, Illustration is the clever use of simple
         primary shapes. Landscapes, animals, and people are created by adding
