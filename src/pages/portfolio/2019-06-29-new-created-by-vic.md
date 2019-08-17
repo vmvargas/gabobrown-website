@@ -61,6 +61,8 @@ steps:
         product environment.
       name: Visual Principles
     - description: >-
+        ![visual-principles-illustration-system-gabo-brown](/img/illustrations-p2-2.png)
+    - description: >-
         Be open to new projects.  As a UI - UX Designer sometimes we tend to
         forget other divisions of design, and turns out you can be really
         talented in some other areas as illustration, data analysis, etc.
