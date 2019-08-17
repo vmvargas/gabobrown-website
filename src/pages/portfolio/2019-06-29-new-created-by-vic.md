@@ -40,8 +40,7 @@ steps:
         anatomically precise. Composed of irregular shapes, characters are
         designed for actions rather than individual identity.
       name: Human Figures
-    - description: >-
-        ![human-figures-joycus-gabo-brown](/img/joycus-illustration-system-gabo-brown-3.png)
+    - description: '![human-figures-joycus-gabo-brown](/img/illustrations-gabo-brown-02.png)'
       name: ''
     - description: >-
         At the essence of Product, Illustration is the clever use of simple
@@ -53,6 +52,7 @@ steps:
         inconsistencies we modify some nods and curves in order to create a more
         "natural" system.
       name: Exaggerated Forms
+    - description: '![forms-joycus-gabo-brown-shapes](/img/illustrations-gabo-brown-03.png)'
     - description: >-
         Illustrations can create inspiring content for the context of what is
         being served. Exaggerated forms are used for their expressive nature and
