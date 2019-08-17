@@ -52,7 +52,7 @@ steps:
         inconsistencies we modify some nods and curves in order to create a more
         "natural" system.
       name: Exaggerated Forms
-    - description: '![forms-joycus-gabo-brown-shapes](/img/illustrations-gabo-brown-03.png)'
+    - description: '![forms-joycus-gabo-brown-shapes](/img/illustrations-p2-01.png)'
     - description: >-
         Illustrations can create inspiring content for the context of what is
         being served. Exaggerated forms are used for their expressive nature and
@@ -61,7 +61,7 @@ steps:
         product environment.
       name: Visual Principles
     - description: >-
-        ![visual-principles-illustration-system-gabo-brown](/img/illustrations-p2-2.png)
+        ![visual-principles-illustration-system-gabo-brown](/img/illustrations-p2-curved.png)
     - description: >-
         Be open to new projects.  As a UI - UX Designer sometimes we tend to
         forget other divisions of design, and turns out you can be really
