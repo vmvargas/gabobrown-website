@@ -9,7 +9,7 @@ description: >-
 company: Resourcify
 location: 'Hamburg, Germany'
 featuredpost: true
-featuredimage: /img/resourcify-gabo-brown-ui-ux2.png
+featuredimage: /img/resourcify-gabo-brown-ui-ux.png
 steps:
   row:
     - description: 'just a test :)'
