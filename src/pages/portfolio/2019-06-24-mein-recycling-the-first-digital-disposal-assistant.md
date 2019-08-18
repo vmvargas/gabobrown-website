@@ -12,7 +12,11 @@ featuredpost: true
 featuredimage: /img/resourcify-gabo-brown-ui-ux.png
 steps:
   row:
-    - description: 'just a test :)'
+    - description: >-
+        Resourcify is a personalized digital disposal assistant. It gathers all
+        your commercial waste, sites, disposers and orders in one app and make
+        the process a lot easier. The app also helps companies of all types and
+        sizes to digitize their waste management.
       name: Introduction
 tags:
   - UI
