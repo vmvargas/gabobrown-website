@@ -12,18 +12,28 @@ featuredimage: /img/skillsbank-gabo-brown-ui-ux2.png
 steps:
   row:
     - description: >-
-        Social selling is a way for sales teams to use social media to connect
-        with prospects and provide them with value. Consider it similar to lead
-        nurturing, in the sense that the idea is to engage buyers on an
-        on-going, long-term basis.
+        In early 2019, we started a pitch at Loycus where I had the chance to
+        develop - for the first time in my life - a style for the new
+        illustration system. This system was going to be used all over the
+        Loycus Platform. Crazy enough the style that I proposed ended up being
+        selected to define Loycus Illustration's new identity.
 
 
 
 
-        The goal of this project was to come up with a tool for Nu Skin
-        distributors that allows them to connect with their prospects, built and
-        maintain relationships and convert them into customers.
+        I called the new style “JoyCus”, a mix between the words Joy-ful and
+        Cus-tomer. My intention was creating characters where joyfulness was
+        part of the illustration core.
+
+
+
+
+        After a long process of hard work from the amazing Loycus team, we
+        agreed that my illustrations were going to be the starting point in
+        creating a style guide and a toolkit. This style defined the palettes,
+        forms, and animations.
       name: Introduction
+    - description: '![](/img/illustration-system-joycus-loycus-gabo-brown.png)'
     - description: >-
         Using the insights I gathered from the research, I began creating user
         flows.
