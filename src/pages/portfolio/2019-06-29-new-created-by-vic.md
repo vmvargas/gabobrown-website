@@ -1,15 +1,15 @@
 ---
 templateKey: portfolio-post
-title: 'JoyCus: Illustration System'
+title: 'Skills Bank: A tool to explore effective skills development programs'
 date: 2019-06-29T19:22:03.441Z
 description: >-
-  An illustration system made to enrich a brand's visual language and say more
-  nuanced things that a logo, color scheme, typeface, or even words cannot
-  convey alone.
-company: Loycus
-location: 'Madrid, Spain'
+  IDB SkillsBank is a mobile app and website that gathers all the studies and
+  results made by IDB and also works as a tool to explore effective skills
+  development programs.
+company: The Inter-American Development Bank
+location: 'New York City, U.S.A'
 featuredpost: false
-featuredimage: /img/joycus-gabo-brown-ui-ux2.png
+featuredimage: /img/skillsbank-gabo-brown-ui-ux.png
 steps:
   row:
     - description: >-
