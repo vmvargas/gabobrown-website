@@ -12,22 +12,22 @@ featuredimage: /img/blueliv-gabo-brown-ui-ux.png
 steps:
   row:
     - description: >-
-        In early 2019, we started a pitch at Loycus where I had the chance to
-        develop - for the first time in my life - a style for the new
-        illustration system. This system was going to be used all over the
-        Loycus Platform. Crazy enough the style that I proposed ended up being
-        selected to define Loycus Illustration's new identity.
+        Blueliv is a leading cyberthreat intelligence provider. In 2017 they
+        decided to turn its focus into social networking. They scour the open,
+        deep and dark web to deliver fresh, automated and actionable threat
+        intelligence to organizations, helping protect their networks from the
+        outside in. They also enable organizations to save time and resources by
+        accelerating incident response performance, providing user-friendly
+        evidence accessible to all levels within cybersecurity operations teams
+        with our pay-as-you-need solutions.
 
 
-        I called the new style **“JoyCus”**, a mix between the words Joy-ful and
-        Cus-tomer. My intention was creating characters where joyfulness was
-        part of the illustration core.
 
 
-        After a long process of hard work from the amazing Loycus team, we
-        agreed that my illustrations were going to be the starting point in
-        creating a style guide and a toolkit. This style defined the palettes,
-        forms, and animations.
+        Blueliv’s Threat Exchange Network is designed to protect your enterprise
+        and the community against today’s latest threats. By providing expert
+        threat data, Blueliv Community allows you and your peers to improve
+        incident response and get recognized.
       name: Introduction
     - description: >-
         The company wanted to design an app that could be both a social network
