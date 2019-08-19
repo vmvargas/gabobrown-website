@@ -52,6 +52,7 @@ steps:
         total of 10 participants, we aimed to validate solution concept, clarity
         on components, and user efficiency.
       name: 'Research, Ideate and validate'
+    - description: '![](/img/blueliv-web-1.png)'
     - description: >-
         One of the main goals was scalability. At the moment of the launch, we
         had only two sources of data: the map and the threats. The design
