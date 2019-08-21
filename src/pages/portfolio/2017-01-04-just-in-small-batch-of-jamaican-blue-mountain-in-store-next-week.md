@@ -29,6 +29,7 @@ steps:
         threat data, Blueliv Community allows you and your peers to improve
         incident response and get recognized.
       name: Introduction
+    - description: '![gabo-brown-blueliv-intro-icon](/img/blueliv-web_intro.png "intro")'
     - description: >-
         The company wanted to design an app that could be both a social network
         and an interactive map where users could see live all cyber attacks in
@@ -37,6 +38,9 @@ steps:
         wanted. These user flows and maps were -in my opinion- in really good
         shape, however Blueliv needed to changed them completely.
       name: The Problem
+    - description: >-
+        ![reaseach-user-experience-gabo-gabriel-brown](/img/blueliv-web_solving-the-problem.png
+        "User Experience Blueliv")
     - description: >-
         I didn’t have any type of familiarity with the topic so the frist step
         was educating myself. When I fully understood most of it I asked them
@@ -52,7 +56,9 @@ steps:
         total of 10 participants, we aimed to validate solution concept, clarity
         on components, and user efficiency.
       name: 'Research, Ideate and validate'
-    - description: '![](/img/blueliv-web-1.png)'
+    - description: >-
+        ![wireframe-blueliv-gabo-gabriel-brown](/img/blueliv-web_wireframing.png
+        "Wireframe")
     - description: >-
         One of the main goals was scalability. At the moment of the launch, we
         had only two sources of data: the map and the threats. The design
@@ -68,6 +74,9 @@ steps:
         first - this was a client requirement - we usually design mobile first.
         We used Sketch for UI design and Principle for motion design.
       name: Visual Design & Prototyping
+    - description: >-
+        ![visual-design-blueliv-gabo-gabriel-brown](/img/blueliv-web_visual-design.png
+        "Blueliv Visual Design")
     - description: >-
         1. Don't spend too much time on refining things before everyone agree. I
         did these mistake where I was too focus on refining one hi-fi
