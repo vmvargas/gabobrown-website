@@ -13,60 +13,103 @@ featuredimage: /img/skillsbank-gabo-brown-ui-ux.png
 steps:
   row:
     - description: >-
-        In early 2019, we started a pitch at Loycus where I had the chance to
-        develop - for the first time in my life - a style for the new
-        illustration system. This system was going to be used all over the
-        Loycus Platform. Crazy enough the style that I proposed ended up being
-        selected to define Loycus Illustration's new identity.
+        DB SkillsBank is a mobile app and website that gathers all the studies
+        and results made by IDB and also works as a tool to explore effective
+        skills development programs.
 
-
-        I called the new style **“JoyCus”**, a mix between the words Joy-ful and
-        Cus-tomer. My intention was creating characters where joyfulness was
-        part of the illustration core.
-
-
-        After a long process of hard work from the amazing Loycus team, we
-        agreed that my illustrations were going to be the starting point in
-        creating a style guide and a toolkit. This style defined the palettes,
-        forms, and animations.
+         Despite governments’ best efforts, many people in Latin America and the Caribbean don’t have the skills they need to thrive. This app looks at what policies work, and don’t work, so that governments can help people learn better and realize their potential throughout their lifetimes.
       name: Introduction
     - description: >-
         ![Illustration-joycus-gabo-brown](/img/illustration-system-joycus-loycus-gabo-brown.png
         "illustration1")
       name: ''
     - description: >-
-        Human figures are used to add warmth, they help build an emotional
-        connection and tell the story. Characters are stylized and not
-        anatomically precise. Composed of irregular shapes, characters are
-        designed for actions rather than individual identity.
-      name: Human Figures
+        As you can imagine The IDB has tons of information, data and case
+        studies and this leads us to the primary problem which was how are we
+        going to concentrate all that information in a very limited space and
+        the second issue was that in the previous platform it took +2 weeks for
+        the users to find what they needed so the question was how are we going
+        to make it easier for the users to find the information they need in
+        less than 2 days?
+
+
+        Furthermore, there was a - tiny, not that tiny - third issue and it was
+        that the client didn’t want any - literally any - colour in the user
+        interface.
+      name: The Problem
     - description: '![human-figures-joycus-gabo-brown](/img/illustrations-gabo-brown-02.png)'
       name: ''
     - description: >-
-        At the essence of Product, Illustration is the clever use of simple
-        primary shapes. 
+        Having these two obstacles, me and my team started to do the research
+        process based on all the data that the bank provided and looking to see
+        if the competitors already had something similar in the market. 
 
 
-        Landscapes, animals, and people are created by adding and subtracting
-        geometric shapes from one another and then to create a little
-        inconsistencies we modify some nods and curves in order to create a more
-        "natural" system.
-      name: Exaggerated Forms
+        After gathering all the information, we mapped out an end-to-end user
+        journey of a government’ employee to visualize areas where pain-points
+        might arise (highlighted in red). After overviewing the research
+        experience, we synthesized an initial hypothesis that governments’
+        employees tend to look at tables and statistics rather than text itself.
+
+
+        To understand the problem scope and the research experience from both
+        sides, we conducted 5 semi-structured interviews with IDB specialists
+        and government’ employees and created an online survey that got 42
+        respondents.
+      name: Research Process
     - description: '![forms-joycus-gabo-brown-shapes](/img/illustrations-p2-01.png)'
     - description: >-
-        Illustrations can create inspiring content for the context of what is
-        being served. Exaggerated forms are used for their expressive nature and
-        ability to fit into tight compositions. This unique style is important
-        for achieving effective integration between product interactions and
-        product environment.
-      name: Visual Principles
+        To test our concept, we created paper prototypes that demonstrate key
+        user flow. Paper prototype allowed us to brainstorm on main features
+        without expending too much resources. We iterated on our wireframe by
+        conducting guerrilla usability testing with paper prototypes. With a
+        total of 8 participants, we aimed to validate solution concept, clarity
+        on components, and user efficiency. 
+
+
+        We iterated on our paper prototypes by conducting guerrilla usability
+        testing with 8 participants. We recruited our participants in The IDB
+        offices, where the app and website would be likely to be used. The goal
+        was to test solution concept, clarity of components, and user
+        efficiency. The participants gave great feedback including concerns
+        about edge case scenarios.
+      name: Ideate and Validate
     - description: >-
         ![visual-principles-illustration-system-gabo-brown](/img/illustrations-p2-curved.png)
     - description: >-
-        Be open to new projects.  As a UI - UX Designer sometimes we tend to
-        forget other divisions of design, and turns out you can be really
-        talented in some other areas as illustration, data analysis, etc.
-      name: Project Lessons
+        We started designing high fidelity prototypes by creating a style guide
+        for the user interface and determining major screens of the website
+        first - this was a client requirement - we usually design mobile first.
+        We used Sketch for user interface design and
+        [Principle](https://principleformac.com) for motion design. 
+
+
+        In this phase we had to resolve our last tiny not-that-tiny issue, the
+        non-colour interface, after 5 attempts to design an appropriate black
+        and white interface we determined that it wasn’t a viable option, thus
+        we collected all the pros and cons (basically there were just cons to be
+        honest) and presented it to the client, after a 5 hours meeting - no
+        exaggeration - they understood the problem and agreed to use 2 colours
+        (blue and purple)
+      name: Visual Design
+    - description: >-
+        Since the app and website were launched the BankSkills has received 10x
+        more downloads and tons of positive feedback on how the product has
+        helped users save time. Moreover, the IDB SkillsBank wrote a book-based
+        database that accompanies the website/app, aggregates evidence on skills
+        development policies throughout the life cycle.
+      name: The Result
+    - description: >-
+        **Collaboration is key:** The more eyes on a design, the more it’s
+        exposed to varying opinions, experience, and critique — and this can
+        only ultimately improve it. Or at the very least, test it.
+
+         
+
+        **Process in essential:** For a project that is vast, it gives you a
+        roadmap to navigate through what can be a foggy route. This is
+        especially useful when you’re starting out
+      name: Project Learnings
 tags:
   - Illustration
 ---
