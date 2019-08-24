@@ -47,9 +47,9 @@ steps:
 
         After gathering all the information, we mapped out an end-to-end user
         journey of a government’ employee to visualize areas where pain-points
-        might arise (highlighted in red). After overviewing the research
-        experience, we synthesized an initial hypothesis that governments’
-        employees tend to look at tables and statistics rather than text itself.
+        might arise. After overviewing the research experience, we synthesized
+        an initial hypothesis that governments’ employees tend to look at tables
+        and statistics rather than text itself.
 
 
         To understand the problem scope and the research experience from both
@@ -64,7 +64,7 @@ steps:
         without expending too much resources. We iterated on our wireframe by
         conducting guerrilla usability testing with paper prototypes. With a
         total of 8 participants, we aimed to validate solution concept, clarity
-        on components, and user efficiency. 
+        on components, and user efficiency.
 
 
         We iterated on our paper prototypes by conducting guerrilla usability
@@ -72,7 +72,8 @@ steps:
         offices, where the app and website would be likely to be used. The goal
         was to test solution concept, clarity of components, and user
         efficiency. The participants gave great feedback including concerns
-        about edge case scenarios.
+        about edge case scenarios. Unfortunately I forgot to take photos of the
+        paper prototypes and that's why you won't find any pictures bellow.
       name: Ideate and Validate
     - description: >-
         ![visual-principles-illustration-system-gabo-brown](/img/illustrations-p2-curved.png)
