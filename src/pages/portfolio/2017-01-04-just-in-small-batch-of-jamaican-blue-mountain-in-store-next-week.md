@@ -31,12 +31,12 @@ steps:
       name: Introduction
     - description: '![gabo-brown-blueliv-intro-icon](/img/blueliv-web_intro.png "intro")'
     - description: >-
-        The company wanted to design an app that could be both a social network
-        and an interactive map where users could see live all cyber attacks in
-        all the continents. When the project was first handed to me they already
-        had some designs and user flows, but that was precisely wat they DID NOT
-        wanted. These user flows and maps were -in my opinion- in really good
-        shape, however Blueliv needed to changed them completely.
+        The company wanted to design an **app that could be both a social
+        network and an interactive map** where users could see live all cyber
+        attacks in all the continents. When the project was first handed to me
+        they already had some designs and user flows, but that was precisely wat
+        they DID NOT wanted. These user flows and maps were _\-in my opinion-_
+        in really good shape, however Blueliv needed to changed them completely.
       name: The Problem
     - description: >-
         ![reaseach-user-experience-gabo-gabriel-brown](/img/blueliv-web_solving-the-problem.png
@@ -67,22 +67,25 @@ steps:
         interface. By using them, we were able to add more and more data sources
         in a very easy way, virtually without any limits.
 
-         
 
         We started designing high fidelity prototypes by creating a style guide
         for the user interface and determining major screens of the website
-        first - this was a client requirement - we usually design mobile first.
-        We used Sketch for UI design and Principle for motion design.
+        first _\- this was a client requirement -_ we usually design mobile
+        first. We used [Sketch](https://www.sketch.com) for UI design and
+        [Principle](https://principleformac.com) for motion design.
       name: Visual Design & Prototyping
     - description: >-
         ![visual-design-blueliv-gabo-gabriel-brown](/img/blueliv-web_visual-design.png
         "Blueliv Visual Design")
     - description: >-
-        1. Don't spend too much time on refining things before everyone agree. I
-        did these mistake where I was too focus on refining one hi-fi
+        1. **Don't spend too much time on refining things before everyone
+        agree**. I did these mistake where I was too focus on refining one hi-fi
         wireframes. Limit the wireframes and aim for function.
 
-        2. Make sure hire in-house developer. We spent lot of time managing,
+
+
+
+        1. **Make sure hire in-house developer.** We spent lot of time managing,
         communicating, & assisting the development of the app. This make the
         development take long time. Hire great developers where they can
         implement your idea and supportive. No matter how good, how fancy, how
