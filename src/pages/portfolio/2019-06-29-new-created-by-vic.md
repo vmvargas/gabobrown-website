@@ -13,14 +13,14 @@ featuredimage: /img/skillsbank-gabo-brown-ui-ux.png
 steps:
   row:
     - description: >-
-        DB SkillsBank is a mobile app and website that gathers all the studies
-        and results made by IDB and also works as a tool to explore effective
-        skills development programs.
-
-         Despite governments’ best efforts, many people in Latin America and the Caribbean don’t have the skills they need to thrive. This app looks at what policies work, and don’t work, so that governments can help people learn better and realize their potential throughout their lifetimes.
+        Despite governments’ best efforts, many people in Latin America and the
+        Caribbean don’t have the skills they need to thrive. This platform looks
+        at what policies work, and don’t work, so that governments can help
+        people learn better and realize their potential throughout their
+        lifetimes.
       name: Introduction
     - description: >-
-        ![Illustration-joycus-gabo-brown](/img/illustration-system-joycus-loycus-gabo-brown.png
+        ![introduction-skills-bank-idb-gabo-brown](/img/skillsbank-gabriel-brown-03.png
         "illustration1")
       name: ''
     - description: >-
@@ -37,8 +37,6 @@ steps:
         that the client didn’t want any - literally any - colour in the user
         interface.
       name: The Problem
-    - description: '![human-figures-joycus-gabo-brown](/img/illustrations-gabo-brown-02.png)'
-      name: ''
     - description: >-
         Having these two obstacles, me and my team started to do the research
         process based on all the data that the bank provided and looking to see
@@ -57,7 +55,8 @@ steps:
         and government’ employees and created an online survey that got 42
         respondents.
       name: Research Process
-    - description: '![forms-joycus-gabo-brown-shapes](/img/illustrations-p2-01.png)'
+    - description: >-
+        ![research-graph-skills-bank-idb-gabo-brown](/img/skillsbank-gabriel-brown-05.png)
     - description: >-
         To test our concept, we created paper prototypes that demonstrate key
         user flow. Paper prototype allowed us to brainstorm on main features
@@ -76,7 +75,7 @@ steps:
         paper prototypes and that's why you won't find any pictures bellow.
       name: Ideate and Validate
     - description: >-
-        ![visual-principles-illustration-system-gabo-brown](/img/illustrations-p2-curved.png)
+        ![wireframe-user-flow-skills-bank-idb-gabo-brown](/img/skillsbank-gabriel-brown-01.png)
     - description: >-
         We started designing high fidelity prototypes by creating a style guide
         for the user interface and determining major screens of the website
@@ -94,12 +93,16 @@ steps:
         (blue and purple)
       name: Visual Design
     - description: >-
+        ![design-system-user-interface-ui-skills-bank-idb-gabo-brown](/img/skillsbank-gabriel-brown-02.png)
+    - description: >-
         Since the app and website were launched the BankSkills has received 10x
         more downloads and tons of positive feedback on how the product has
         helped users save time. Moreover, the IDB SkillsBank wrote a book-based
         database that accompanies the website/app, aggregates evidence on skills
         development policies throughout the life cycle.
       name: The Result
+    - description: >-
+        ![results-mobile-skills-bank-idb-gabo-brown](/img/skillsbank-gabriel-brown-04.png)
     - description: >-
         **Collaboration is key:** The more eyes on a design, the more it’s
         exposed to varying opinions, experience, and critique — and this can
@@ -112,6 +115,8 @@ steps:
         especially useful when you’re starting out
       name: Project Learnings
 tags:
-  - Illustration
+  - User Experience
+  - User Interface
+  - Design System
 ---
 
