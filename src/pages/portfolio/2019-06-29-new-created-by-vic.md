@@ -27,15 +27,15 @@ steps:
       name: ''
     - description: >-
         As you can imagine the IDB has huge pools of information, data and case
-        studies which leads us to a primary problem: how are we going to
-        organize all of this info in such a limited space? For instance, in the
-        previous platform, it could take up to +2 weeks for users to find what
-        they need. In this sense, our main goal was for the user to be able to
-        find any useful information in less than 2 days.
+        studies which leads us to a primary problem: **how are we going to
+        organize all of this info in such a limited space?** For instance, in
+        the previous platform, it could take up to +2 weeks for users to find
+        what they need. In this sense, our main goal was for the user to be able
+        to find any useful information in less than 2 days.
 
 
-        Additionally, there was another tiny -not that tiny - problem: the
-        client didn’t want literally any colour in the user interface.
+        Additionally, there was another tiny _\-not that tiny -_ problem: **the
+        client didn’t want literally any colour in the user interface.**
       name: The Problem
     - description: >-
         Me and my team started to do the research process based on all the data
