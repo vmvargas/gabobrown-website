@@ -94,7 +94,7 @@ steps:
         (blue and purple)
       name: Visual Design
     - description: >-
-        ![design-system-user-interface-ui-skills-bank-idb-gabo-brown](/img/skillsbank-gabriel-brown-02.png)
+        ![design-system-user-interface-ui-skills-bank-idb-gabo-brown](/img/skillsbank-visual-design-gabo-brown.png)
     - description: >-
         Since the app and website were launched the BankSkills has received 10x
         more downloads and tons of positive feedback on how the product has
