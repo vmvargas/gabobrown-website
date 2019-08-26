@@ -82,10 +82,7 @@ steps:
         agree**. I did these mistake where I was too focus on refining one hi-fi
         wireframes. Limit the wireframes and aim for function.
 
-
-
-
-        1. **Make sure hire in-house developer.** We spent lot of time managing,
+        2. **Make sure hire in-house developer.** We spent lot of time managing,
         communicating, & assisting the development of the app. This make the
         development take long time. Hire great developers where they can
         implement your idea and supportive. No matter how good, how fancy, how
