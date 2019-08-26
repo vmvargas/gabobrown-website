@@ -118,8 +118,8 @@ steps:
         especially useful when you’re starting out.
       name: Project Learnings
 tags:
-  - User Experience
-  - User Interface
+  - UX
+  - UI
   - Design System
 ---
 
