@@ -76,7 +76,7 @@ steps:
         paper prototypes and that's why you won't find any pictures bellow.
       name: Ideate and Validate
     - description: >-
-        ![wireframe-user-flow-skills-bank-idb-gabo-brown](/img/skillsbank-gabriel-brown-01.png)
+        ![wireframe-user-flow-skills-bank-idb-gabo-brown](/img/0-skillsbank-final-2-01.png)
     - description: >-
         We started designing high fidelity prototypes by creating a style guide
         for the user interface and determining major screens of the website
@@ -94,7 +94,12 @@ steps:
         (blue and purple)
       name: Visual Design
     - description: >-
-        ![design-system-user-interface-ui-skills-bank-idb-gabo-brown](/img/skillsbank-visual-design-gabo-brown.png)
+        ![design-system-user-interface-ui-skills-bank-idb-gabo-brown-1](/img/0-skillsbank-final-2-02.png
+        "Desktop Visual Screens")
+
+
+        ![design-system-user-interface-ui-skills-bank-idb-gabo-brown-2](/img/0-skillsbank-final-2-06.png
+        "Visual Designs 2")
     - description: >-
         Since the app and website were launched the BankSkills has received 10x
         more downloads and tons of positive feedback on how the product has
