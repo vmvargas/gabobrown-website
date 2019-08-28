@@ -5,22 +5,22 @@ image: /img/gabriel-gabo-brown-me-01.jpg
 clients:
   heading: Some clients I’ve collaborated with
   logos:
-    - image: /img/client-blueliv.jpg
-      name: blueliv-cyber-security
-    - image: /img/client-haarper-bazaar.jpg
-      name: haaper-bazaar-magazine
-    - image: /img/client-resourcify.jpg
-      name: recourcify
-    - image: /img/client-unilever.jpg
-      name: unilever
-    - image: /img/client-mbolden.jpg
-      name: mbolden-women-in-wireless
-    - image: /img/client-mondelez.jpg
-      name: mondelez-international
-    - image: /img/client-daikin.jpg
-      name: daikin-air-conditioner
-    - image: /img/client-interamerican-development-bank.jpg
-      name: interamerican-development-bank
+    - image: /img/haarper-bazaar.png
+      name: haarper-bazaar-magazine-logo-clients-gabriel-gabo-brown
+    - image: /img/artboard-copy.png
+      name: unilever-logo-clients-gabriel-gabo-brown
+    - image: /img/artboard-copy-2.png
+      name: mondelez-logo-clients-gabriel-gabo-brown
+    - image: /img/artboard-copy-3.png
+      name: interamerican-development-bank-logo-clients-gabriel-gabo-brown
+    - image: /img/artboard-copy-4.png
+      name: mbolden-women-in-wireless-logo-clients-gabriel-gabo-brown
+    - image: /img/artboard-copy-5.png
+      name: blueliv-logo-clients-gabriel-gabo-brown
+    - image: /img/artboard-copy-6.png
+      name: daikin-air-conditioner-logo-clients-gabriel-gabo-brown
+    - image: /img/artboard-copy-7.png
+      name: columbia-university-logo-clients-gabriel-gabo-brown
 social:
   heading1: Feel free to contact me!
   heading2: I'm on the lookout for new projects
