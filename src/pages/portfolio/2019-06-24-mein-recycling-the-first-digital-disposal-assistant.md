@@ -3,9 +3,8 @@ templateKey: portfolio-post
 title: 'Mein Recycling: The First Digital Disposal Assistant'
 date: 2019-06-24T21:34:51.647Z
 description: >-
-  Der beste Blick auf Ihre Behälter. Seien Sie immer auf dem Laufenden über Ihre
-  Abfallbehälter und -arten, Ihre verschiedenen Entsorger und den Status Ihrer
-  anstehenden Abholungen mit der benutzerfreundlichsten Übersicht der Branche
+  Your Digital Disposal Assistant: All your commercial waste, sites, disposers
+  and orders in one app. It could not be easier.
 company: Resourcify
 location: 'Hamburg, Germany'
 featuredpost: true
@@ -19,12 +18,18 @@ steps:
         all types and sizes to digitize their waste management.
       name: Introduction
     - description: >-
+        ![gabriel-gabo-brown-resourcify-intro-user-interface-visual](/img/resourcify-gabo-gabriel-brown-ui-ux-03.png
+        "Intro")
+    - description: >-
         They had a very strong user experience but they needed help with the
         user interface of the app. In the beginning, I thought it would be a
         really smooth project considering all the user experience was already
         done. Nonetheless, it was incredibly challenging to combine the good
         practices of UI with the existing UX.
       name: The problem
+    - description: >-
+        ![user-interdace-redesign-resourcify-gabriel-gabo-brown](/img/resourcify-gabo-gabriel-brown-ui-ux-01.png
+        "Onboarding ReDesign")
     - description: >-
         Once the client gave me all the flows, wireframes and architecture of
         the information, I started working on the first concept of the app. I
@@ -53,6 +58,9 @@ steps:
         yet, I created a quick simple brand guideline to ensure all the design
         process will follow the guides and become more consistent.
       name: Visual Design & Prototyping
+    - description: >-
+        ![gabo-gabriel-brown-visual-design-resourcify](/img/resourcify-gabo-gabriel-brown-ui-ux-02.png
+        "Visual Design")
     - description: >-
         1. As a freelancer, **it's important for you to balance between
         different features according to timeline and budget**. Make sure you
