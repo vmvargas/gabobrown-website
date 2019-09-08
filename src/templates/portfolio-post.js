@@ -66,6 +66,7 @@ export const PortfolioPostTemplate = ({
                       <h2 style={{
                         fontSize: "1.22em",
                         color: "rgba(0,0,0,0.8)",
+                        whiteSpace: "nowrap"
                       }}>
                         {ind.toString().length===1 ? '0'+(parseInt(ind,10)+1) : ind+1}
                         <span className="has-text-grey-light"
