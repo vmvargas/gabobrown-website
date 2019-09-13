@@ -35,9 +35,11 @@ collections:
           - {label: Title3, name: title3, widget: string}
           - {label: Description1, name: description1, widget: string}
           - {label: Description2, name: description2, widget: string}
+          - {label: Description2 Link, name: description2Link, widget: string}
           - {label: Description3, name: description3, widget: string}
           - {label: Description4, name: description4, widget: string}
           - {label: Description5, name: description5, widget: string}
+          - {label: Description5 Link, name: description5Link, widget: string}
           - {label: Description6, name: description6, widget: string}
       - file: "src/pages/about/index.md"
         label: "About"

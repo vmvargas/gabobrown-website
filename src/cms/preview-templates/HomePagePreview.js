@@ -13,9 +13,11 @@ const HomePagePreview = ({ entry }) => {
         title3={data.title3}
         description1={data.description1}
         description2={data.description2}
+        description2Link={data.description2Link}
         description3={data.description3}
         description4={data.description4}
         description5={data.description5}
+        description5Link={data.description5Link}
         description6={data.description6}
       />
     )

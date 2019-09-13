@@ -11,9 +11,11 @@ export const HomePageTemplate = ({
   title3,
   description1,
   description2,
+  description2Link,
   description3,
   description4,
   description5,
+  description5Link,
   description6,
 }) => (
 <div>
@@ -40,10 +42,18 @@ export const HomePageTemplate = ({
               {title3}
             </h3>
             <h5 className="has-text-grey-dark is-size-5">
-              {description1} <span className="has-text-weight-bold has-text-primary">{description2}</span> {description3}
+              {description1}
+              <span className="has-text-weight-bold has-text-primary">
+                <Link to="description2Link"> {description2} </Link>
+              </span>
+              {description3}
             </h5>
             <h5 className="has-text-grey-dark is-size-5">
-              {description4} <span className="has-text-weight-bold has-text-primary">{description5}</span> {description6}
+              {description4} 
+              <span className="has-text-weight-bold has-text-primary">
+                <Link to="description5Link"> {description5} </Link>
+              </span>
+              {description6}
             </h5>
           </div>
           <div className="column">
@@ -66,9 +76,11 @@ HomePageTemplate.propTypes = {
   title3: PropTypes.string,
   description1: PropTypes.string,
   description2: PropTypes.string,
+  description2Link: PropTypes.string,
   description3: PropTypes.string,
   description4: PropTypes.string,
   description5: PropTypes.string,
+  description5Link: PropTypes.string,
   description6: PropTypes.string,
 }
 
@@ -83,9 +95,11 @@ const HomePage = ({ data }) => {
         title3={frontmatter.title3}
         description1={frontmatter.description1}
         description2={frontmatter.description2}
+        description2Link={frontmatter.description2Link}
         description3={frontmatter.description3}
         description4={frontmatter.description4}
         description5={frontmatter.description5}
+        description5Link={frontmatter.description5Link}
         description6={frontmatter.description6}
       />
     </Layout>
@@ -111,9 +125,11 @@ export const pageQuery = graphql`
         title3
         description1
         description2
+        description2Link
         description3
         description4
         description5
+        description5Link
         description6        
       }
     }
