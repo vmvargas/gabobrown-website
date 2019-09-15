@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
@@ -97,7 +96,7 @@ export const PortfolioPostTemplate = ({
               <div className="tags">
                 {tags.map(tag => (
                   <span className="tag" key={tag + `tag`}>
-                    <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                    {tag}
                   </span>
                 ))}
               </div>

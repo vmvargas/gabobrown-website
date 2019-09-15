@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 
 import Layout from '../components/Layout'
 import PortfolioRoll from '../components/PortfolioRoll'
@@ -44,14 +44,14 @@ export const HomePageTemplate = ({
             <h5 className="has-text-grey-dark is-size-5">
               {description1}
               <span className="has-text-weight-bold has-text-primary">
-                <Link to="description2Link"> {description2} </Link>
+                <Link to={description2Link}> {description2} </Link>
               </span>
               {description3}
             </h5>
             <h5 className="has-text-grey-dark is-size-5">
               {description4} 
               <span className="has-text-weight-bold has-text-primary">
-                <Link to="description5Link"> {description5} </Link>
+                <Link to={description5Link}> {description5} </Link>
               </span>
               {description6}
             </h5>

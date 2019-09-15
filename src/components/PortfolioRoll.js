@@ -56,14 +56,16 @@ class PortfolioRoll extends React.Component {
               </div>
               {post.frontmatter.featuredimage ? (
                 <div className="column featured-thumbnail">
-                  <PreviewCompatibleImage
-                    imageInfo={{
-                      image: post.frontmatter.featuredimage,
-                      alt: `featured image thumbnail for post ${
-                        post.title
-                      }`,
-                    }}
-                  />
+                  <Link to={post.fields.slug}>
+                    <PreviewCompatibleImage
+                      imageInfo={{
+                        image: post.frontmatter.featuredimage,
+                        alt: `featured image thumbnail for post ${
+                          post.title
+                        }`,
+                      }}
+                    />
+                  </Link>
                 </div>
               ) : null}
             </article>
