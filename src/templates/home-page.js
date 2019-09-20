@@ -44,14 +44,24 @@ export const HomePageTemplate = ({
             <h5 className="has-text-grey-dark is-size-5">
               {description1}
               <span className="has-text-weight-bold has-text-primary">
-                <Link to={description2Link}> {description2} </Link>
+                <a
+                    href={description2Link}
+                    target="_blank"
+                    rel="noopener noreferrer"                    
+                  >{description2}
+                </a>
               </span>
               {description3}
             </h5>
             <h5 className="has-text-grey-dark is-size-5">
               {description4} 
               <span className="has-text-weight-bold has-text-primary">
-                <Link to={description5Link}> {description5} </Link>
+              <a
+                    href={description5Link}
+                    target="_blank"
+                    rel="noopener noreferrer"                    
+                  >{description5}
+                </a>
               </span>
               {description6}
             </h5>
