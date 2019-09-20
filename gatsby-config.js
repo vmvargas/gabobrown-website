@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Gabo Brown Portfolio',
     description:
-      'Gabo Brown Portfolio a Product Designer based in Madrid. Gabo Brown is a Product Lead and Branding designe. Gabo Brown is also an enthusiast of inclusive design.',
+      'Gabo Brown Portfolio a Product Designer based in Madrid. Gabo Brown is a Product Lead and Branding designer. Gabo Brown is also an enthusiast of inclusive design.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
