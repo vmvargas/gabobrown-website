@@ -1,6 +1,6 @@
 ---
 templateKey: portfolio-post
-title: 'JoyCus: An Illustration Systema'
+title: 'JoyCus: An Illustration System'
 date: 2017-05-01T14:04:10.000Z
 description: >-
   This illustration system is a way to enrich a Loycus's visual language and say
