@@ -23,7 +23,7 @@ const NotFoundPage = () => (
                   alt: `Bailey The Aussie`,
                 }}/>
             </figure>
-            <p className="has-text-centered">Meet <a href="https://www.instagram.com/baleytheaussie/">Bailey The Aussie</a></p>
+            <p className="has-text-centered">Meet my dear <a href="https://www.instagram.com/baleytheaussie/">Bailey The Aussie</a></p>
           </div>
         </div>
       </div>
