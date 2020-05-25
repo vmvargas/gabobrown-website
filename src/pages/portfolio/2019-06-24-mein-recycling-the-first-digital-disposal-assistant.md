@@ -1,12 +1,12 @@
 ---
 templateKey: portfolio-post
-title: 'Mein Recycling: The First Digital Disposal Assistant'
+title: "Mein Recycling: The First Digital Disposal Assistant"
 date: 2019-06-24T21:34:51.647Z
 description: >-
   Your Digital Disposal Assistant: All your commercial waste, sites, disposers
   and orders in one app. It could not be easier.
 company: Resourcify
-location: 'Hamburg, Germany'
+location: "Hamburg, Germany"
 featuredpost: true
 featuredimage: /img/resourcify-gabo-brown-ui-ux.png
 steps:
@@ -17,6 +17,7 @@ steps:
         making the recycling process way easier. The app also helps companies of
         all types and sizes to digitize their waste management.
       name: Introduction
+      number: 1
     - description: >-
         ![gabriel-gabo-brown-resourcify-intro-user-interface-visual](/img/resourcify-gabo-gabriel-brown-ui-ux-03.png
         "Intro")
@@ -27,6 +28,7 @@ steps:
         done. Nonetheless, it was incredibly challenging to combine the good
         practices of UI with the existing UX.
       name: The problem
+      number: 2
     - description: >-
         ![user-interdace-redesign-resourcify-gabriel-gabo-brown](/img/resourcify-gabo-gabriel-brown-ui-ux-01.png
         "Onboarding ReDesign")
@@ -58,6 +60,7 @@ steps:
         yet, I created a quick simple brand guideline to ensure all the design
         process will follow the guides and become more consistent.
       name: Visual Design & Prototyping
+      number: 3
     - description: >-
         ![gabo-gabriel-brown-visual-design-resourcify](/img/resourcify-gabo-gabriel-brown-ui-ux-02.png
         "Visual Design")
@@ -71,8 +74,8 @@ steps:
         available for them because they're the people who are gonna make your
         design come to life.
       name: Project Learnings
+      number: 4
 tags:
   - UI
   - UX
 ---
-

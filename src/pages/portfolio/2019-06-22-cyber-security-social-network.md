@@ -6,7 +6,7 @@ description: >-
   Blueliv’s Threat Exchange Network is designed to protect your enterprise and
   the community against today’s latest threats
 company: Blueliv
-location: 'London, United Kingdom'
+location: "London, United Kingdom"
 featuredpost: true
 featuredimage: /img/blueliv-gabo-brown-ui-ux.png
 steps:
@@ -29,6 +29,7 @@ steps:
         threat data, Blueliv Community allows you and your peers to improve
         incident response and get recognized.
       name: Introduction
+      number: 1
     - description: '![gabo-brown-blueliv-intro-icon](/img/blueliv-web_intro.png "intro")'
     - description: >-
         The company wanted to design an **app that could be both a social
@@ -38,6 +39,7 @@ steps:
         they DID NOT wanted. These user flows and maps were _\-in my opinion-_
         in really good shape, however Blueliv needed to changed them completely.
       name: The Problem
+      number: 2
     - description: >-
         ![reaseach-user-experience-gabo-gabriel-brown](/img/blueliv-web_solving-the-problem.png
         "User Experience Blueliv")
@@ -55,7 +57,8 @@ steps:
         conducting guerrilla usability testing with paper prototypes. With the
         total of 10 participants, we aimed to validate solution concept, clarity
         on components, and user efficiency.
-      name: 'Research, Ideate and validate'
+      name: "Research, Ideate and validate"
+      number: 3
     - description: >-
         ![wireframe-blueliv-gabo-gabriel-brown](/img/blueliv-web_wireframing.png
         "Wireframe")
@@ -74,6 +77,7 @@ steps:
         first. We used [Sketch](https://www.sketch.com) for UI design and
         [Principle](https://principleformac.com) for motion design.
       name: Visual Design & Prototyping
+      number: 4
     - description: >-
         ![visual-design-blueliv-gabo-gabriel-brown](/img/blueliv-web_visual-design.png
         "Blueliv Visual Design")
@@ -89,9 +93,9 @@ steps:
         neat you design the interface & interaction; if you can't get a good
         developer, this will not likely happen.
       name: Project Learnings
+      number: 5
 tags:
   - UI
   - UX
   - Visual Design
 ---
-

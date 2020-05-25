@@ -1,9 +1,9 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-import { graphql, Link } from 'gatsby'
-import Layout from '../components/Layout'
-import MarkdownContent from '../components/MarkdownContent'
+import React from "react";
+import PropTypes from "prop-types";
+import Helmet from "react-helmet";
+import { graphql, Link } from "gatsby";
+import Layout from "../components/Layout";
+import MarkdownContent from "../components/MarkdownContent";
 
 export const PortfolioPostTemplate = ({
   company,
@@ -13,88 +13,106 @@ export const PortfolioPostTemplate = ({
   helmet,
   steps,
 }) => {
- 
+  console.log(steps);
   return (
     <section className="section">
-      {helmet || ''}
+      {helmet || ""}
       <div className="container">
         <div className="columns is-multiline">
           <div className="column is-12">
-          <Link
-              className="has-text-weight-bold"
-              to="/">
+            <Link className="has-text-weight-bold" to="/">
               Go Back
             </Link>
-            <div className="is-hidden-touch" style={{
-              height: '1em',
-            }}></div>
-            <h1 className="is-size-1 has-text-black" style={{
-              fontWeight: "500",
-              lineHeight: "1.25",
-              marginBottom: "0.15em",
-            }}>
+            <div
+              className="is-hidden-touch"
+              style={{
+                height: "1em",
+              }}
+            ></div>
+            <h1
+              className="is-size-1 has-text-black"
+              style={{
+                fontWeight: "500",
+                lineHeight: "1.25",
+                marginBottom: "0.15em",
+              }}
+            >
               {title}
             </h1>
-            <h3 className="has-text-weight-light has-text-grey-dark" style={{
-              fontSize: "1.7em",
-              fontWeight: "300",
-              marginBottom: "0.5rem"
-            }}>
+            <h3
+              className="has-text-weight-light has-text-grey-dark"
+              style={{
+                fontSize: "1.7em",
+                fontWeight: "300",
+                marginBottom: "0.5rem",
+              }}
+            >
               {company}
             </h3>
           </div>
           {featuredimage ? (
-          <div className="column is-12">
-            <div style={{
-              backgroundImage: `url(${
-                !!featuredimage.childImageSharp ? featuredimage.childImageSharp.fluid.src : featuredimage
-              })`,
-              backgroundPosition: `center`,
-              backgroundSize: `cover`,
-              height: `450px`,
-            }}>
+            <div className="column is-12">
+              <div
+                style={{
+                  backgroundImage: `url(${
+                    !!featuredimage.childImageSharp
+                      ? featuredimage.childImageSharp.fluid.src
+                      : featuredimage
+                  })`,
+                  backgroundPosition: `center`,
+                  backgroundSize: `cover`,
+                  height: `450px`,
+                }}
+              ></div>
             </div>
-          </div>
           ) : null}
-          {steps.row && steps.row.length ?
-            (steps.row.map((step, ind) => (
-              <div className="column is-12" key={step.name + `step-name`}>
-                <div className="columns">  
-                  {step.name ? (
-                    <div className="column is-4">
-                      <h2 style={{
-                        fontSize: "1.22em",
-                        color: "rgba(0,0,0,0.8)",
-                        whiteSpace: "nowrap"
-                      }}>
-                        {ind.toString().length===1 ? '0'+(parseInt(ind,10)+1) : ind+1}
-                        <span className="has-text-grey-light"
+
+          {steps.row && steps.row.length
+            ? steps.row.map((step, ind) => (
+                <div className="column is-12" key={ind + `-step`}>
+                  <div className="columns">
+                    {step.name ? (
+                      <div className="column is-4">
+                        <h2
                           style={{
-                            width: "5.5em",
-                            display: "inline-block",
-                            borderBottom: "1px solid #979797",
-                            margin: "0 10px"
-                          }}></span>
-                        {step.name}
-                      </h2>
-                    </div>) : null }
-                  {step.name ? (
-                    <div className="column" style={{marginTop: "1.7em"}}>
-                      <MarkdownContent content={step.description} />
-                    </div>
-                  ) :
-                    <div className="column">
-                      <MarkdownContent content={step.description} />
-                    </div>
-                  }
+                            fontSize: "1.22em",
+                            color: "rgba(0,0,0,0.8)",
+                            whiteSpace: "nowrap",
+                          }}
+                        >
+                          {step.number.toString().length === 1
+                            ? "0" + parseInt(step.number, 10)
+                            : step.number}
+                          <span
+                            className="has-text-grey-light"
+                            style={{
+                              width: "5.5em",
+                              display: "inline-block",
+                              borderBottom: "1px solid #979797",
+                              margin: "0 10px",
+                            }}
+                          ></span>
+                          {step.name}
+                        </h2>
+                      </div>
+                    ) : null}
+                    {step.name ? (
+                      <div className="column" style={{ marginTop: "1.7em" }}>
+                        <MarkdownContent content={step.description} />
+                      </div>
+                    ) : (
+                      <div className="column">
+                        <MarkdownContent content={step.description} />
+                      </div>
+                    )}
+                  </div>
                 </div>
-              </div>
               ))
-            ) : null }
+            : null}
           {tags && tags.length ? (
             <div className="column is-12">
               <div className="tags">
-                {tags.map(tag => (
+                {tags.map((tag) => (
                   <span className="tag" key={tag + `tag`}>
                     {tag}
                   </span>
@@ -105,9 +123,8 @@ export const PortfolioPostTemplate = ({
         </div>
       </div>
     </section>
-  )
-}
-
+  );
+};
 PortfolioPostTemplate.propTypes = {
   description: PropTypes.string,
   company: PropTypes.string,
@@ -117,10 +134,10 @@ PortfolioPostTemplate.propTypes = {
   steps: PropTypes.shape({
     row: PropTypes.array,
   }),
-}
+};
 
 const PortfolioPost = ({ data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: post } = data;
 
   return (
     <Layout>
@@ -142,16 +159,16 @@ const PortfolioPost = ({ data }) => {
         steps={post.frontmatter.steps}
       />
     </Layout>
-  )
-}
+  );
+};
 
 PortfolioPost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
-}
+};
 
-export default PortfolioPost
+export default PortfolioPost;
 
 export const pageQuery = graphql`
   query PortfolioPostByID($id: String!) {
@@ -173,10 +190,11 @@ export const pageQuery = graphql`
         steps {
           row {
             name
+            number
             description
           }
         }
       }
     }
   }
-`
+`;

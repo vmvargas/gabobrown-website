@@ -12,16 +12,53 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "portfolio-post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Company", name: "company", widget: "string"}
-      - {label: "Location", name: "location", widget: "string"}
-      - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
-      - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Steps", name: steps, widget: object, fields: [{label: Row, name: row, widget: list, fields: [{label: Name, name: name, widget: string, required: false}, {label: "Description", name: "description", widget: "markdown"}]}]}
-      - {label: "Tags", name: "tags", widget: "list"}
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "portfolio-post",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Company", name: "company", widget: "string" }
+      - { label: "Location", name: "location", widget: "string" }
+      - { label: "Featured Post", name: "featuredpost", widget: "boolean" }
+      - { label: "Featured Image", name: "featuredimage", widget: image }
+      - {
+          label: "Steps",
+          name: steps,
+          widget: object,
+          fields:
+            [
+              {
+                label: Row,
+                name: row,
+                widget: list,
+                fields:
+                  [
+                    {
+                      label: Number,
+                      name: number,
+                      widget: string,
+                      required: false,
+                    },
+                    {
+                      label: Name,
+                      name: name,
+                      widget: string,
+                      required: false,
+                    },
+                    {
+                      label: "Description",
+                      name: "description",
+                      widget: "markdown",
+                    },
+                  ],
+              },
+            ],
+        }
+      - { label: "Tags", name: "tags", widget: "list" }
   - name: "pages"
     label: "Pages"
     files:
@@ -29,25 +66,83 @@ collections:
         label: "Home"
         name: "home"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
-          - {label: Title1, name: title1, widget: string}
-          - {label: Title2, name: title2, widget: string}
-          - {label: Title3, name: title3, widget: string}
-          - {label: Description1, name: description1, widget: string}
-          - {label: Description2, name: description2, widget: string}
-          - {label: Description2 Link, name: description2Link, widget: string}
-          - {label: Description3, name: description3, widget: string}
-          - {label: Description4, name: description4, widget: string}
-          - {label: Description5, name: description5, widget: string}
-          - {label: Description5 Link, name: description5Link, widget: string}
-          - {label: Description6, name: description6, widget: string}
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "home-page",
+            }
+          - { label: Title1, name: title1, widget: string }
+          - { label: Title2, name: title2, widget: string }
+          - { label: Title3, name: title3, widget: string }
+          - { label: Description1, name: description1, widget: string }
+          - { label: Description2, name: description2, widget: string }
+          - { label: Description2 Link, name: description2Link, widget: string }
+          - { label: Description3, name: description3, widget: string }
+          - { label: Description4, name: description4, widget: string }
+          - { label: Description5, name: description5, widget: string }
+          - { label: Description5 Link, name: description5Link, widget: string }
+          - { label: Description6, name: description6, widget: string }
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: Clients, name: clients, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Logos, name: logos, widget: list, fields: [{label: Name, name: name, widget: string}, {label: Image, name: image, widget: image}]}]}
-          - {label: Social, name: social, widget: object, fields: [{label: Heading 1, name: heading1, widget: string}, {label: Heading 2, name: heading2, widget: string, required: false}, {label: Heading 3, name: heading3, widget: string, required: false}, {label: Links, name: links, widget: list, fields: [{label: Name, name: name, widget: string}, {label: URL, name: url, widget: string}]}]}
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "about-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - {
+              label: Clients,
+              name: clients,
+              widget: object,
+              fields:
+                [
+                  { label: Heading, name: heading, widget: string },
+                  {
+                    label: Logos,
+                    name: logos,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Name, name: name, widget: string },
+                        { label: Image, name: image, widget: image },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: Social,
+              name: social,
+              widget: object,
+              fields:
+                [
+                  { label: Heading 1, name: heading1, widget: string },
+                  {
+                    label: Heading 2,
+                    name: heading2,
+                    widget: string,
+                    required: false,
+                  },
+                  {
+                    label: Heading 3,
+                    name: heading3,
+                    widget: string,
+                    required: false,
+                  },
+                  {
+                    label: Links,
+                    name: links,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Name, name: name, widget: string },
+                        { label: URL, name: url, widget: string },
+                      ],
+                  },
+                ],
+            }

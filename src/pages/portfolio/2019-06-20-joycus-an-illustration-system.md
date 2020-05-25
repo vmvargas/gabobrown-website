@@ -1,13 +1,13 @@
 ---
 templateKey: portfolio-post
-title: 'JoyCus: An Illustration System'
+title: "JoyCus: An Illustration System"
 date: 2017-05-01T14:04:10.000Z
 description: >-
   This illustration system is a way to enrich a Loycus's visual language and say
   more nuanced things that a logo, color scheme, typeface, or even words cannot
   convey alone.
 company: Loycus
-location: 'Madrid, Spain'
+location: "Madrid, Spain"
 featuredpost: false
 featuredimage: /img/joycus-gabo-brown-ui-ux.png
 steps:
@@ -34,6 +34,7 @@ steps:
         creating a style guide and a toolkit. This style defined the palettes,
         forms, and animations.
       name: Introduction
+      number: 1
     - description: >-
         ![introduction-gabo-brown-illustration-system](/img/illustration-system-joycus-loycus-gabo-brown.png
         "Intro")
@@ -44,6 +45,7 @@ steps:
         designed for corporal expression rather than individual identity or a
         face expression itself.
       name: Human Figures
+      number: 2
     - description: >-
         ![human-figures-gabo-brown-illustration-system](/img/illustrations-gabo-brown-02.png
         "Human Figures")
@@ -52,6 +54,7 @@ steps:
         primary shapes. Landscapes, animals, and people are created by adding
         and subtracting geometric shapes from one another.
       name: Exaggerated Forms
+      number: 3
     - description: >-
         ![exaggerated-forms-gabo-brown-illustration-system](/img/illustrations-p2-01.png
         "Exaggerated Forms")
@@ -62,6 +65,7 @@ steps:
         for achieving effective integration between product interactions and
         product environment.
       name: Visual Principles
+      number: 4
     - description: >-
         ![visual-principles-gabo-brown-illustration-system](/img/illustrations-p2-curved.png
         "Visual Principles")
@@ -70,7 +74,7 @@ steps:
         forget other divisions of design, and turns out you can be really
         talented in some other areas as illustration, data analysis, etc.
       name: Project Lessons
+      number: 5
 tags:
   - Illustration System
 ---
-

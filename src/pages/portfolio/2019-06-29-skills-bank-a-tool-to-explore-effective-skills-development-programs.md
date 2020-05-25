@@ -1,13 +1,13 @@
 ---
 templateKey: portfolio-post
-title: 'Skills Bank: A tool to explore effective skills development programs'
+title: "Skills Bank: A tool to explore effective skills development programs"
 date: 2019-06-29T19:22:03.441Z
 description: >-
   IDB SkillsBank is a mobile app and website that gathers all the studies and
   results made by IDB and also works as a tool to explore effective skills
   development programs.
 company: The Inter-American Development Bank
-location: 'New York City, U.S.A'
+location: "New York City, U.S.A"
 featuredpost: false
 featuredimage: /img/skillsbank-gabo-brown-ui-ux.png
 steps:
@@ -21,10 +21,10 @@ steps:
         governments in their quest to help their citizens improving their life
         quality.
       name: Introduction
+      number: 1
     - description: >-
         ![introduction-skills-bank-idb-gabo-brown](/img/skillsbank-gabriel-brown-03.png
         "illustration1")
-      name: ''
     - description: >-
         As you can imagine the IDB has huge pools of information, data and case
         studies which leads us to a primary problem: **how are we going to
@@ -37,6 +37,7 @@ steps:
         Additionally, there was another tiny _\-not that tiny -_ problem: **the
         client didn’t want literally any colour in the user interface.**
       name: The Problem
+      number: 2
     - description: >-
         Me and my team started to do the research process based on all the data
         that the bank provided and looking to see if the competitors already had
@@ -55,6 +56,7 @@ steps:
         specialists and government’ employees and created an online survey that
         got 42 respondents.
       name: Research Process
+      number: 3
     - description: >-
         ![research-graph-skills-bank-idb-gabo-brown](/img/skillsbank-gabriel-brown-05.png)
     - description: >-
@@ -75,6 +77,7 @@ steps:
         about edge case scenarios. Unfortunately I forgot to take photos of the
         paper prototypes and that's why you won't find any pictures bellow.
       name: Ideate and Validate
+      number: 4
     - description: >-
         ![wireframe-user-flow-skills-bank-idb-gabo-brown](/img/0-skillsbank-final-2-01.png)
     - description: >-
@@ -93,6 +96,7 @@ steps:
         exaggeration - they understood the problem and agreed to use 2 colours
         (blue and purple)
       name: Visual Design
+      number: 5
     - description: >-
         ![design-system-user-interface-ui-skills-bank-idb-gabo-brown-1](/img/0-skillsbank-final-2-02.png
         "Desktop Visual Screens")
@@ -110,6 +114,7 @@ steps:
         accompanies the digital platform, aggregates evidence on skills
         development policies throughout the life cycle.
       name: The Result
+      number: 6
     - description: >-
         ![results-mobile-skills-bank-idb-gabo-brown](/img/skillsbank-gabriel-brown-04.png)
     - description: >-
@@ -122,9 +127,9 @@ steps:
         roadmap to navigate through what can be a foggy route. This is
         especially useful when you’re starting out.
       name: Project Learnings
+      number: 7
 tags:
   - UX
   - UI
   - Design System
 ---
-
