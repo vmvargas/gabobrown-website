@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: Howdy! Nice to meet you
+title: Howdy! Nice to see you here
 image: /img/gabriel-gabo-brown-me-01.jpg
 clients:
   heading: Some clients I’ve collaborated with
