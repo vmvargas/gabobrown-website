@@ -33,10 +33,10 @@ social:
     - name: Instagram
       url: 'https://www.instagram.com/gabobrown/'
 ---
-I'm a "full-stack" product designer with years of experience in visual and interaction design, capable of crafting world-class products from scratch.
+I'm a product designer with years of experience in visual and interaction design, capable of crafting world-class products from scratch.
 
-My most recent work was with [**Loycus App**](https://www.loycus.com) where I'm currently designing for some of its core offerings like Social Media Engagement, Social Advertising and a CRM Software for all sizes companies that helped integrate all their social marketing needs under one roof. Working with the design team for six months in this young, rapidly growing enterprise startup environment - taught me how to balance business goals and engineering constraints as I unrelentingly advocated for the user.
+Now I'm working in a special project called [**Devengo**](www.devengo.com)**.** As the only product designer, I took the responsibility from strategy to the design of the product, **a mobile app for salary advances**. Followed lean startup approach: MVP and rapid iterations. During this time I was involved in some projects with the marketing and business departments., rapidly growing enterprise startup environment - taught me how to balance business goals and engineering constraints as I unrelentingly advocated for the user.
 
-I graduated from The Institute of Design of Caracas, Venezuela with a degree in **Graphic Design**, then I did my first **MA in Graphic Media** at the [**University of The Arts: London**](https://www.arts.ac.uk) ****and now I'm currently doing a **UX and Research Design Specialization** at the [**University of Michigan**](https://umich.edu). I love human-centered design methods and everything that is related to inclusive design.
+I graduated from **The Institute of Design of Caracas, Venezuela** with a degree in **Graphic Design**, then I did my first **certification in Design Management** at the [**University of The Arts: London**](https://www.arts.ac.uk) and now I'm currently doing an **MSI in UX and Research Design** at the [**University of Michigan**](https://umich.edu). I love human-centered design methods and everything that is related to inclusive design.
 
 I grew up between so many cultures that my ability to quickly adjust to new challenges in life comes from that. Owing to my diverse upbringing, I embrace all cultures and try to bring it to the designs I create.
