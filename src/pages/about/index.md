@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: Howdy! Nice to see you here
+title: "\U0001F44B Welcome to my little corner of the internet."
 image: /img/gabriel-gabo-brown-me-01.jpg
 clients:
   heading: Some clients I’ve collaborated with
@@ -27,16 +27,26 @@ social:
   heading3: and I'd love to collaborate
   links:
     - name: Linkedin
-      url: 'https://www.linkedin.com/in/gabriel-brown-9435b380'
+      url: 'https://www.linkedin.com/in/gabrielbrownmoreno/'
     - name: E-mail
       url: 'mailto:gabobrown.design@gmail.com'
     - name: Instagram
       url: 'https://www.instagram.com/gabobrown/'
 ---
-I'm a product designer with years of experience in visual and interaction design, capable of crafting world-class products from scratch.
+At the end of the 9th grade when our teachers asked us to write down our future aspirations in the yearbook, I wrote that I wanted to become a designer. While I had no idea at the time, I now know that being a designer means thinking outside the frame. It means asking the right questions, developing a critical & thoughtful process, implementing an idea with a strong craft — and above all else, advocating for real people with real needs.
 
-Now I'm working in a special project called [**Devengo**](www.devengo.com)**.** As the only product designer, I took the responsibility from strategy to the design of the product, **a mobile app for salary advances**. Followed lean startup approach: MVP and rapid iterations. During this time I was involved in some projects with the marketing and business departments., rapidly growing enterprise startup environment - taught me how to balance business goals and engineering constraints as I unrelentingly advocated for the user.
+What excites me about design is being able to work at the crossroads of art, engineering, business, & psychology and with some of the coolest, most creative minds in the industry. What inspires me about design is being able to craft experiences that strengthens connection and creates a sense of community for others. Previously, I've designed products for [**Devengo**](https://www.devengo.com)**🇪🇸**, [**Haper's BAZAAR**](https://apps.apple.com/us/app/harpers-bazaar-magazine-us/id489949431) **🇬🇧**, [**Resourcify**](http://resourcify.de)**🇩🇪** and [**98point6**](https://www.98point6.com)🇬🇧among some other amazing projects. And, at moment I'm focusing all my attention on working at [**Alkemy**](www.alkemy.com) as a UX/UI Consultant and getting my MBA at [**EAE Business School**](https://www.eae.es) in Madrid.
 
-I graduated from **The Institute of Design of Caracas, Venezuela** with a degree in **Graphic Design**, then I did my first **certification in Design Management** at the [**University of The Arts: London**](https://www.arts.ac.uk) and now I'm currently doing an **MSI in UX and Research Design** at the [**University of Michigan**](https://umich.edu). I love human-centered design methods and everything that is related to inclusive design.
 
-I grew up between so many cultures that my ability to quickly adjust to new challenges in life comes from that. Owing to my diverse upbringing, I embrace all cultures and try to bring it to the designs I create.
+
+
+
+When I’m not dreaming up solutions in a Figma file, I’m probably learning how to mix the business, the design, and the Psychology world. When I’m not online, I’m probably engaging in fruitful conversation, catching some fresh air, inching through my bookshelf, or turning the places I visit pastel.
+
+
+
+Looking for a more detailed self-intro? Maybe this will do.
+
+
+
+\- Gabriel, Gabs, Gabo, Gabe, Gabri or whatever you might want to call me
