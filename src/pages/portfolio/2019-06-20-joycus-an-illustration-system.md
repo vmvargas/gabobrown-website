@@ -1,13 +1,13 @@
 ---
 templateKey: portfolio-post
-title: "JoyCus: An Illustration System"
-date: 2017-05-01T14:04:10.000Z
+title: 'JoyCus: An Illustration System'
+date: 2020-01-15T15:04:10.000Z
 description: >-
   This illustration system is a way to enrich a Loycus's visual language and say
   more nuanced things that a logo, color scheme, typeface, or even words cannot
   convey alone.
 company: Loycus
-location: "Madrid, Spain"
+location: 'Madrid, Spain'
 featuredpost: false
 featuredimage: /img/joycus-gabo-brown-ui-ux.png
 steps:
@@ -78,3 +78,4 @@ steps:
 tags:
   - Illustration System
 ---
+
