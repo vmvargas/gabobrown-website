@@ -1,12 +1,12 @@
 ---
 templateKey: portfolio-post
 title: Cyber Security Social Network
-date: 2019-01-07T15:04:10.000Z
+date: 2020-02-05T15:04:10.000Z
 description: >-
   Blueliv’s Threat Exchange Network is designed to protect your enterprise and
   the community against today’s latest threats
 company: Blueliv
-location: "London, United Kingdom"
+location: 'London, United Kingdom'
 featuredpost: true
 featuredimage: /img/blueliv-gabo-brown-ui-ux.png
 steps:
@@ -57,7 +57,7 @@ steps:
         conducting guerrilla usability testing with paper prototypes. With the
         total of 10 participants, we aimed to validate solution concept, clarity
         on components, and user efficiency.
-      name: "Research, Ideate and validate"
+      name: 'Research, Ideate and validate'
       number: 3
     - description: >-
         ![wireframe-blueliv-gabo-gabriel-brown](/img/blueliv-web_wireframing.png
@@ -99,3 +99,4 @@ tags:
   - UX
   - Visual Design
 ---
+
