@@ -13,8 +13,8 @@ clients:
       name: mondelez-logo-clients-gabriel-gabo-brown
     - image: /img/artboard-copy-3.png
       name: interamerican-development-bank-logo-clients-gabriel-gabo-brown
-    - image: /img/artboard-copy-4.png
-      name: mbolden-women-in-wireless-logo-clients-gabriel-gabo-brown
+    - image: /img/parques-reunidos-gabrielbrown-gabobrown.png
+      name: parquesreunidos-warner-logo-clients-gabrielbrown-gabobrown
     - image: /img/artboard-copy-5.png
       name: blueliv-logo-clients-gabriel-gabo-brown
     - image: /img/artboard-copy-6.png
