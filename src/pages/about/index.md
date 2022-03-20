@@ -37,16 +37,8 @@ At the end of the 9th grade when our teachers asked us to write down our future 
 
 What excites me about design is being able to work at the crossroads of art, engineering, business, & psychology and with some of the coolest, most creative minds in the industry. What inspires me about design is being able to craft experiences that strengthens connection and creates a sense of community for others. Previously, I've designed products for [**Devengo**](https://www.devengo.com)**🇪🇸**, [**Haper's BAZAAR**](https://apps.apple.com/us/app/harpers-bazaar-magazine-us/id489949431) **🇬🇧**, [**Resourcify**](http://resourcify.de)**🇩🇪** and [**98point6**](https://www.98point6.com)🇬🇧among some other amazing projects. And, at moment I'm focusing all my attention on working at [**Alkemy**](www.alkemy.com) as a UX/UI Consultant and getting my MBA at [**EAE Business School**](https://www.eae.es) in Madrid.
 
-
-
-
-
 When I’m not dreaming up solutions in a Figma file, I’m probably learning how to mix the business, the design, and the Psychology world. When I’m not online, I’m probably engaging in fruitful conversation, catching some fresh air, inching through my bookshelf, or turning the places I visit pastel.
 
+Looking for a more detailed self-intro? [**Maybe this will do.**](https://gabobrown.com/img/gabrielbrown-cv.pdf)****
 
-
-Looking for a more detailed self-intro? Maybe this will do.
-
-
-
-\- Gabriel, Gabs, Gabo, Gabe, Gabri or whatever you might want to call me
+\- Gabriel, Gabs, Gabo, Gabe, Gabri, or whatever you might want to call me
