@@ -30,7 +30,7 @@ steps:
         it**](https://www.linkedin.com/feed/update/urn:li:activity:6910197295351226368/),
         hope you enjoy the ride (literally).
       name: Coming Soon
-      number: '1'
+      number: ''
 tags:
   - UX
   - UI
