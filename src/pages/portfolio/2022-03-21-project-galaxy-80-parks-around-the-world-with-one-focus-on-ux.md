@@ -16,9 +16,6 @@ featuredimage: /img/parquesreunidos-gabobrown-gabrielbrown-ui-ux.png
 steps:
   row:
     - description: >-
-        ![](/img/parquesreunidos-gabobrown-gabrielbrown-ui-ux.png
-        "cover-parquesreunidos-gabrielbrown-gabobrown")
-    - description: >-
         An ambitious plan for the development of all Parques Reunidos' websites
         with a single design system, updated technology, and focus on user
         experience. The use of common technology, coupled with the great
@@ -35,6 +32,6 @@ steps:
       name: Coming Soon
       number: '1'
 tags:
-  - UX - UI - Project Management
+  - UX  |  UI  |  Consultancy  |  Project Management
 ---
 
