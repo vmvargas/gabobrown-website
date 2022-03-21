@@ -32,6 +32,9 @@ steps:
       name: Coming Soon
       number: '1'
 tags:
-  - UX  |  UI  |  Consultancy  |  Project Management
+  - UX
+  - UI
+  - Consultancy
+  - Project Management
 ---
 
