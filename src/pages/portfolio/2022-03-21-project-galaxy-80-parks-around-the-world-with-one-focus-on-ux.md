@@ -1,6 +1,6 @@
 ---
 templateKey: portfolio-post
-title: 'Project Galaxy: +80 Parks Around The World with One Focus on UX'
+title: 'Project Galaxy: +80 Parks Around The World with One Focus'
 date: 2022-03-20T23:42:19.770Z
 description: >-
   An ambitious plan for the development of all the company's websites with a
