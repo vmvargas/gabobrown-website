@@ -9,7 +9,7 @@ description2Link: 'https://www.alkemy.com/en'
 description3: as a UI/UX consultant
 description4: 'and, also getting my MBA at'
 description5: EAE Business School
-description5Link: 'https://www.eae.es'
+description5Link: 'https://www.eae.es/en/full-time/international-mba/course-contents'
 description6: 'in Madrid, Spain.'
 ---
 
