@@ -40,8 +40,10 @@ collections:
                     {
                       label: Number,
                       name: number,
-                      widget: string,
+                      widget: number,
+                      value_type: "int",
                       required: false,
+                      default: 0,
                     },
                     {
                       label: Name,
@@ -58,7 +60,7 @@ collections:
               },
             ],
         }
-      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Tags (Comma separated)", name: "tags", widget: "list" }
   - name: "pages"
     label: "Pages"
     files:

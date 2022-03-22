@@ -1,6 +1,6 @@
 ---
 templateKey: portfolio-post
-title: 'Project Galaxy: +80 Parks Around The World with One Focus'
+title: "Project Galaxy: +80 Parks Around The World with One Focus"
 date: 2022-03-20T23:42:19.770Z
 description: >-
   An ambitious plan for the development of all the company's websites with a
@@ -10,7 +10,7 @@ description: >-
   involved, who have already completed the first 24 websites, and will work on
   this project until 2023.
 company: Parques Reunidos
-location: 'Madrid, Spain'
+location: "Madrid, Spain"
 featuredpost: true
 featuredimage: /img/parquesreunidos-gabobrown-gabrielbrown-ui-ux.png
 steps:
@@ -30,11 +30,10 @@ steps:
         it**](https://www.linkedin.com/feed/update/urn:li:activity:6910197295351226368/),
         hope you enjoy the ride (literally).
       name: Coming Soon
-      number: ''
+      number: 0
 tags:
   - UX
   - UI
   - Consultancy
   - Project Management
 ---
-

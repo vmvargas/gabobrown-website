@@ -13,7 +13,6 @@ export const PortfolioPostTemplate = ({
   helmet,
   steps,
 }) => {
-  console.log(steps);
   return (
     <section className="section">
       {helmet || ""}
@@ -80,9 +79,11 @@ export const PortfolioPostTemplate = ({
                             whiteSpace: "nowrap",
                           }}
                         >
-                          {step.number.toString().length === 1
-                            ? "0" + parseInt(step.number, 10)
-                            : step.number}
+                          {step.number.toString() > 0
+                            ? step.number.toString().length === 1
+                              ? "0" + parseInt(step.number, 10)
+                              : step.number
+                            : null}
                           <span
                             className="has-text-grey-light"
                             style={{
