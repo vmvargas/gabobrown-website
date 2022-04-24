@@ -59,6 +59,8 @@ steps:
         fully responsive, accessible, and coherent throughout the whole web.
       name: 'Defining the components '
       number: 5
+    - description: '![](/img/project-galaxy-gabriel-brown-gabo-leisure-parks06.png)'
+      number: 0
 tags:
   - UX
   - UI
