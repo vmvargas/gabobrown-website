@@ -43,7 +43,7 @@ steps:
     - description: "After identifying the general bugs and defining our goals for the project, we proceed to divide the parks into waves, each wave had a specific thematic and reason to be:\n\n\n\n* \U0001F30A\U0001F3A2 Wave 1   \\_\\_\\_\\__   **European Themed Parks**\n* \U0001F30A\U0001F3A1 Wave 2 \\_\\_\\_\\_ **American & Australian Themed Parks**\n* \U0001F30A\U0001F43C Wave 3 \\_\\_\\_\\_ **ZOOs & Aquariums**\n* \U0001F30A\U0001F3E8 Wave \\_\\_\\_\\_ **Resort Parks**\n* \U0001F30A\U0001F4A7 Wave 5 \\_\\_\\_\\_ **Aquatic Parks** \n\n\n\nHence, we proceed to interview a responsible for each park, so we could gather the maximum information about their current pain points with their webs and payment funnels, and also, to understand the cultural differences and needs of each park to take them into account while designing the new platform. Furthermore, using these insights we crafted 10 personas, to capture the pain points and frustrations of our target users."
       name: Research & Insights
       number: 4
-    - description: '![](/img/project-galaxy-gabriel-brown-gabo-leisure-parks07.png)'
+    - description: '![](/img/project-galaxy-gabriel-brown-gabo-leisure-parks-07.png)'
       number: 0
     - description: >-
         Thanks to the research we conducted previously, we came up with a
@@ -59,7 +59,7 @@ steps:
         fully responsive, accessible, and coherent throughout the whole web.
       name: 'Defining the components '
       number: 5
-    - description: '![](/img/project-galaxy-gabriel-brown-gabo-leisure-parks06.png)'
+    - description: '![](/img/project-galaxy-gabriel-brown-gabo-leisure-parks-06.png)'
       number: ''
     - description: >-
         With these, we ran five concept tests and then settled on a user flow
@@ -83,7 +83,7 @@ steps:
     - description: .
       name: Some of the final interfaces
       number: 8
-    - description: '![](/img/project-galaxy-gabriel-brown-gabo-leisure-parks03.png)'
+    - description: '![](/img/project-galaxy-gabriel-brown-gabo-leisure-parks-03.png)'
       number: ''
     - description: >-
         Galaxy Project has beaten its objectives in 2021 and is expected to even
