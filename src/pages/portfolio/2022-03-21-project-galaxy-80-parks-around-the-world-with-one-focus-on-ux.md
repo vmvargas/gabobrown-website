@@ -60,7 +60,51 @@ steps:
       name: 'Defining the components '
       number: 5
     - description: '![](/img/project-galaxy-gabriel-brown-gabo-leisure-parks06.png)'
+      number: ''
+    - description: >-
+        With these, we ran five concept tests and then settled on a user flow
+        that we would use to begin creating  Lo-fi prototypes of the components.
+        The key part of this process was determining exactly which questions we
+        needed to validate with the stakeholders and what problems we were
+        solving for the user, and in what order. 
+
+
+        Below we can appreciate a very, very... very simplified example of this
+        process.
+      name: Low-fidelity to final concepts
+      number: 6
+    - description: '![](/img/project-galaxy-gabriel-brown-gabo-leisure-parks02.png)'
       number: 0
+    - description: "We faced 3 main challenges while designing the design system, those were:\n\n\n\n* Neutral Interface that could be accessible to all parks\n* Customisable interface where branding should be shown on the interface\n* Skeuomorphism vs. Flat design, going from more to less.\n\n\n\nEvery design system is supported on top of some main basics that will help to build the rest of the components and give unity and consistency to all the elements\n\n\n\n**\U0001F4D0 Grid**: To give a basis for where the website will be built. We established a 12-column grid for desktop and a 4-column for mobile.\n\n**\U0001F524 Typography**: Two were proposed by the team (Anton & Barlow), but parks were treated particularly in case they needed another font.\n\n**\U0001F3A8 Colours**: Defined according to each park’s branding system \n\n**\U0001F3A2 Iconography and patterns**: Unique and simple style for all parks to enhance the communication and help the brand to be more powerful."
+      name: Design System Foundations & UI Refinement
+      number: 7
+    - description: '![](/img/project-galaxy-gabriel-brown-gabo-leisure-parks04.png)'
+      number: 0
+    - description: .
+      name: Some of the final interfaces
+      number: 8
+    - description: '![](/img/project-galaxy-gabriel-brown-gabo-leisure-parks03.png)'
+      number: ''
+    - description: >-
+        Galaxy Project has beaten its objectives in 2021 and is expected to even
+        improve them in the following years. The main success KPIs are: 
+
+
+        * Organic (not paid) traffic: **+1,6M additional organic sessions
+        (+14%)**
+
+        * Conversion rate: **+0.5 p.p. conversion rate (+23%)**
+
+        * Visitors: **+0.5M additional visitors (+34%)**
+
+        * Revenues: **+20.5M € additional revenues (+33%)**
+
+        * EBITDA: **+10.2M € impact on EBITDA (+33%)**
+      name: "The results \U0001F389 \U0001F389 \U0001F389"
+      number: 9
+    - description: "\U0001F52E This project has helped broaden my system-level product thinking. I was also able to foster strong collaboration by working with other teams tackling similar challenges.\n\n\n\n\U0001F587 It also taught me how to better mix the Business, Coding, and Design worlds together.\n\n\n\n\U0001F4AB And on a more personal level, I learned how to get a more balanced personal-work life."
+      name: My learnings
+      number: 10
 tags:
   - UX
   - UI
