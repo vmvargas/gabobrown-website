@@ -73,8 +73,8 @@ steps:
         process.
       name: Low-fidelity to final concepts
       number: 6
-    - description: '![](/img/project-galaxy-gabriel-brown-gabo-leisure-parks02.png)'
-      number: 0
+    - description: '![](/img/project-galaxy-gabriel-brown-gabo-leisure-parks-02.png)'
+      number: ''
     - description: "We faced 3 main challenges while designing the design system, those were:\n\n\n\n* Neutral Interface that could be accessible to all parks\n* Customisable interface where branding should be shown on the interface\n* Skeuomorphism vs. Flat design, going from more to less.\n\n\n\nEvery design system is supported on top of some main basics that will help to build the rest of the components and give unity and consistency to all the elements\n\n\n\n**\U0001F4D0 Grid**: To give a basis for where the website will be built. We established a 12-column grid for desktop and a 4-column for mobile.\n\n**\U0001F524 Typography**: Two were proposed by the team (Anton & Barlow), but parks were treated particularly in case they needed another font.\n\n**\U0001F3A8 Colours**: Defined according to each park’s branding system \n\n**\U0001F3A2 Iconography and patterns**: Unique and simple style for all parks to enhance the communication and help the brand to be more powerful."
       name: Design System Foundations & UI Refinement
       number: 7
