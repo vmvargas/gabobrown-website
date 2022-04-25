@@ -60,7 +60,7 @@ steps:
       name: 'Defining the components '
       number: 5
     - description: '![](/img/project-galaxy-gabriel-brown-gabo-leisure-parks-06.png)'
-      number: ''
+      number: 0
     - description: >-
         With these, we ran five concept tests and then settled on a user flow
         that we would use to begin creating  Lo-fi prototypes of the components.
