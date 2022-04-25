@@ -84,7 +84,7 @@ steps:
       name: Some of the final interfaces
       number: 8
     - description: '![](/img/project-galaxy-gabriel-brown-gabo-leisure-parks-03.png)'
-      number: ''
+      number: 0
     - description: >-
         Galaxy Project has beaten its objectives in 2021 and is expected to even
         improve them in the following years. The main success KPIs are: 
